@@ -11,6 +11,7 @@ include '../includes/header.php'; ?>
 
             <p>Sistēmās jāizmanto zemāk uzskaitītās krāsas. Krāsām SCSS ir definēti mainīgie, piemēram, <b>$tonis</b>.
             </p>
+            <p></p>
 
             <h2 class="ds">
                 Primārās krāsas
