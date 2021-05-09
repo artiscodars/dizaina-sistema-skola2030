@@ -15,7 +15,7 @@ include '../includes/header.php'; ?>
     <div class="card">
   <div class="card-body">
     <h2>Logotips</h2>
-   <a href="/ds/brandbook/logo.php">Vairāk <i class="ri-arrow-right-line"></i></a>
+   <a href="/brandbook/logo.php">Vairāk <i class="ri-arrow-right-line"></i></a>
   </div>
 </div>
   </div>
@@ -23,7 +23,7 @@ include '../includes/header.php'; ?>
     <div class="card">
   <div class="card-body">
     <h2>Krāsas</h2>
-     <a href="/ds/brandbook/krasas.php">Vairāk <i class="ri-arrow-right-line"></i></a>
+     <a href="/brandbook/krasas.php">Vairāk <i class="ri-arrow-right-line"></i></a>
   </div>
 </div>
   </div>
@@ -31,7 +31,7 @@ include '../includes/header.php'; ?>
     <div class="card">
   <div class="card-body">
     <h2>Teksti</h2>
-   <a href="/ds/brandbook/teksti.php">Vairāk <i class="ri-arrow-right-line"></i></a>
+   <a href="/brandbook/teksti.php">Vairāk <i class="ri-arrow-right-line"></i></a>
   </div>
 </div>
   </div>
@@ -39,7 +39,7 @@ include '../includes/header.php'; ?>
     <div class="card">
   <div class="card-body">
     <h2>Ikonas</h2>
-     <a href="/ds/brandbook/ikonas.php">Vairāk <i class="ri-arrow-right-line"></i></a>
+     <a href="/brandbook/ikonas.php">Vairāk <i class="ri-arrow-right-line"></i></a>
   </div>
 </div>
   </div>

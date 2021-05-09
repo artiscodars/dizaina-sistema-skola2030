@@ -14,8 +14,8 @@ include '../includes/header.php'; ?>
 
                   <h3>Ikonu pakotnes</h3>
 
-  <a href="RemixIcon_Fonts_v2.5.0 (1).zip"><i class="ri-file-zip-line"></i> Ikonu fonti</a><br>
-  <a href="RemixIcon_SVG_v2.5.0 (1).zip"><i class="ri-file-zip-line"></i> SVG ikonas</a>
+  <a href="/brandbook/RemixIcon_Fonts_v2.5.0 (1).zip"><i class="ri-file-zip-line"></i> Ikonu fonti</a><br>
+  <a href="/brandbook/RemixIcon_SVG_v2.5.0 (1).zip"><i class="ri-file-zip-line"></i> SVG ikonas</a>
 
                 </div>
 

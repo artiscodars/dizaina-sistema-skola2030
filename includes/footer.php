@@ -2,7 +2,7 @@
 
 <footer>
 
-    <img src="/ds/images/europe-fonds.png">
+    <img src="/images/europe-fonds.png">
 
 </footer>
 
@@ -10,11 +10,10 @@
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" crossorigin="anonymous">
-</script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
 
-<script src="/ds/fancybox/dist/jquery.fancybox.min.js"></script>
+<script src="/fancybox/dist/jquery.fancybox.min.js"></script>
 
 <script>
 var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))

@@ -13,7 +13,7 @@ include '../includes/header.php'; ?>
 
             <div class="bd-example">
 
-                <iframe src="/ds/index.php" class="izkartojums"></iframe>
+                <iframe src="/index.php" class="izkartojums"></iframe>
 
             </div>
 
@@ -21,7 +21,7 @@ include '../includes/header.php'; ?>
 
             <div class="bd-example">
 
-                <iframe src="/ds/index.php" class="izkartojums mob"></iframe>
+                <iframe src="/index.php" class="izkartojums mob"></iframe>
 
             </div>
 

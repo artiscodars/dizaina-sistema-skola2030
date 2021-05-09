@@ -11,7 +11,7 @@ include '../includes/header.php'; ?>
 
               <footer>
 
-                  <img src="/ds/images/europe-fonds.png">
+                  <img src="/images/europe-fonds.png">
 
               </footer>
 

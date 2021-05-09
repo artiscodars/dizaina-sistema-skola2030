@@ -34,7 +34,7 @@ include 'includes/header.php'; ?>
     <div class="card">
   <div class="card-body">
     <h2>Zīmola grāmata</h2>
-   <a href="/ds/brandbook/">Vairāk <i class="ri-arrow-right-line"></i></a>
+   <a href="/brandbook/">Vairāk <i class="ri-arrow-right-line"></i></a>
   </div>
 </div>
   </div>
@@ -42,7 +42,7 @@ include 'includes/header.php'; ?>
     <div class="card">
   <div class="card-body">
     <h2>Vispārīgās dizaina vadlīnijas</h2>
-     <a href="/ds/visparigi/">Vairāk <i class="ri-arrow-right-line"></i></a>
+     <a href="/visparigi/">Vairāk <i class="ri-arrow-right-line"></i></a>
   </div>
 </div>
   </div>
@@ -50,7 +50,7 @@ include 'includes/header.php'; ?>
     <div class="card">
   <div class="card-body">
     <h2>Komponentes</h2>
-   <a href="/ds/komponentes/">Vairāk <i class="ri-arrow-right-line"></i></a>
+   <a href="/komponentes/">Vairāk <i class="ri-arrow-right-line"></i></a>
   </div>
 </div>
   </div>
@@ -58,7 +58,7 @@ include 'includes/header.php'; ?>
     <div class="card">
   <div class="card-body">
     <h2>Piemēri</h2>
-     <a href="/ds/piemeri/">Vairāk <i class="ri-arrow-right-line"></i></a>
+     <a href="/piemeri/">Vairāk <i class="ri-arrow-right-line"></i></a>
   </div>
 </div>
   </div>

@@ -13,11 +13,11 @@
 
     //echo $_SERVER["DOCUMENT_ROOT"];
 
-    $styletime = date("YmdHi", filemtime($_SERVER["DOCUMENT_ROOT"] . "/ds/style/style.min.css")); ?>
+    $styletime = date("YmdHi", filemtime($_SERVER["DOCUMENT_ROOT"] . "/style/style.min.css")); ?>
 
-    <link rel="stylesheet" type="text/css" href="/ds/fancybox/dist/jquery.fancybox.min.css">
+    <link rel="stylesheet" type="text/css" href="/fancybox/dist/jquery.fancybox.min.css">
 
-    <link href="/ds/style/style.min.css?v=<?php echo $styletime; ?>" rel="stylesheet">
+    <link href="/style/style.min.css?v=<?php echo $styletime; ?>" rel="stylesheet">
 
 </head>
 
@@ -41,7 +41,7 @@ if($_COOKIE['minimenu']=='on') {
     <div class="left_menu">
 
         <div class="logo-holder">
-            <a class="logo" href="/ds/"><img src="/ds/images/logo.svg"></a>
+            <a class="logo" href="/"><img src="/images/logo.svg"></a>
             <div class="system-title">
                 <i class="bi bi-palette-fill"></i>
                 <txt>DIZAINA SISTĒMA</txt>
@@ -51,7 +51,7 @@ if($_COOKIE['minimenu']=='on') {
         <div class="menu-holder-wrapper">
             <div class="menu-holder">
 
-                <?php include $_SERVER["DOCUMENT_ROOT"].'/ds/includes/menu.php'; ?>
+                <?php include $_SERVER["DOCUMENT_ROOT"].'/includes/menu.php'; ?>
             </div>
 
             <div class="version">1.0.1 alfa</div>

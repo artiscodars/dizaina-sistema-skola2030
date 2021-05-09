@@ -13,7 +13,7 @@ include '../includes/header.php'; ?>
                     <div class="row">
                         <div class="col-md-3">
 
-                            <img src="/ds/images/meitenes.jpg" class="card-img-top" alt="...">
+                            <img src="/images/meitenes.jpg" class="card-img-top" alt="...">
                         </div>
                         <div class="col">
                             <h3><a href="#">Kaut kāds <mark>raksta virsraksts</mark></a></h3>

@@ -1,7 +1,7 @@
 <nav>
     <ul class="menu" id="menu">
 
-        <li><a href="/ds/" class="topnav <?php if ($title == "Ievads" )  {echo 'active';} ?>"><i class="bi bi-play"></i>
+        <li><a href="/" class="topnav <?php if ($title == "Ievads" )  {echo 'active';} ?>"><i class="bi bi-play"></i>
                 <txt>Ievads</txt>
             </a></li>
 
@@ -18,21 +18,21 @@
 
                 <li><a class="nav <?php if ($title == "Zīmola grāmata") {
                                                         echo "active";
-                                                    } ?>" href="/ds/brandbook">Par zīmola grāmatu</a></li>
+                                                    } ?>" href="/brandbook">Par zīmola grāmatu</a></li>
 
-                <li><a class="nav <?php if ($saite == "/ds/brandbook/logo.php") {
+                <li><a class="nav <?php if ($saite == "/brandbook/logo.php") {
                                                         echo "active";
-                                                    } ?>" href="/ds/brandbook/logo.php">Logotips</a></li>
-                <li><a class="nav <?php if ($saite == "/ds/brandbook/krasas.php") {
+                                                    } ?>" href="/brandbook/logo.php">Logotips</a></li>
+                <li><a class="nav <?php if ($saite == "/brandbook/krasas.php") {
                                                         echo "active";
-                                                    } ?>" href="/ds/brandbook/krasas.php">Krāsas</a></li>
-                <li><a class="nav <?php if ($saite == "/ds/brandbook/teksti.php") {
+                                                    } ?>" href="/brandbook/krasas.php">Krāsas</a></li>
+                <li><a class="nav <?php if ($saite == "/brandbook/teksti.php") {
                                                         echo "active";
-                                                    } ?>" href="/ds/brandbook/teksti.php">Teksti</a></li>
+                                                    } ?>" href="/brandbook/teksti.php">Teksti</a></li>
 
-                <li><a class="nav <?php if ($saite == "/ds/brandbook/ikonas.php") {
+                <li><a class="nav <?php if ($saite == "/brandbook/ikonas.php") {
                                                         echo "active";
-                                                    } ?>" href="/ds/brandbook/ikonas.php">Ikonas</a></li>
+                                                    } ?>" href="/brandbook/ikonas.php">Ikonas</a></li>
 
             </ul>
 
@@ -51,21 +51,21 @@
 
                 <li><a class="nav <?php if ($title == "Vispārīgi") {
                                                         echo "active";
-                                                    } ?>" href="/ds/visparigi">Ievads</a></li>
+                                                    } ?>" href="/visparigi">Ievads</a></li>
 
-                <li><a class="nav <?php if ($saite == "/ds/visparigi/izkartojums.php") {
+                <li><a class="nav <?php if ($saite == "/visparigi/izkartojums.php") {
                                                         echo "active";
-                                                    } ?>" href="/ds/visparigi/izkartojums.php">Izkārtojums</a></li>
-                <li><a class="nav <?php if ($saite == "/ds/visparigi/krasas.php") {
+                                                    } ?>" href="/visparigi/izkartojums.php">Izkārtojums</a></li>
+                <li><a class="nav <?php if ($saite == "/visparigi/krasas.php") {
                                                         echo "active";
-                                                    } ?>" href="/ds/visparigi/krasas.php">Krāsas</a></li>
-                <li><a class="nav <?php if ($saite == "/ds/visparigi/tipografija.php") {
+                                                    } ?>" href="/visparigi/krasas.php">Krāsas</a></li>
+                <li><a class="nav <?php if ($saite == "/visparigi/tipografija.php") {
                                                         echo "active";
-                                                    } ?>" href="/ds/visparigi/tipografija.php">Tipogrāfija</a></li>
+                                                    } ?>" href="/visparigi/tipografija.php">Tipogrāfija</a></li>
 
-                <li><a class="nav <?php if ($saite == "/ds/visparigi/ikonas.php") {
+                <li><a class="nav <?php if ($saite == "/visparigi/ikonas.php") {
                                                         echo "active";
-                                                    } ?>" href="/ds/visparigi/ikonas.php">Ikonas</a></li>
+                                                    } ?>" href="/visparigi/ikonas.php">Ikonas</a></li>
 
             </ul>
 
@@ -81,142 +81,142 @@
 
                 <li><a class="nav <?php if ($title == "Komponentes") {
                                                         echo "active";
-                                                    } ?>" href="/ds/komponentes">Par komponentēm</a></li>
+                                                    } ?>" href="/komponentes">Par komponentēm</a></li>
 
-                <li class="has-children"><a class="nav <?php if ($saite == "/ds/komponentes/akordeoni.php") {
+                <li class="has-children"><a class="nav <?php if ($saite == "/komponentes/akordeoni.php") {
                                                                             echo "active";
                                                                         } ?>"
-                        href="/ds/komponentes/akordeoni.php">Akordeoni</a></li>
+                        href="/komponentes/akordeoni.php">Akordeoni</a></li>
 
-                <li class="has-children"><a class="nav <?php if ($saite == "/ds/komponentes/formas.php") {
+                <li class="has-children"><a class="nav <?php if ($saite == "/komponentes/formas.php") {
                                                                             echo "active";
                                                                         } ?>"
-                        href="/ds/komponentes/formas.php">Formas</a></li>
+                        href="/komponentes/formas.php">Formas</a></li>
 
-                <li class="has-children"><a class="nav <?php if ($saite == "/ds/komponentes/izlecosie-logi.php") {
+                <li class="has-children"><a class="nav <?php if ($saite == "/komponentes/izlecosie-logi.php") {
                                                                             echo "active";
                                                                         } ?>"
-                        href="/ds/komponentes/izlecosie-logi.php">Modālie logi</a></li>
+                        href="/komponentes/izlecosie-logi.php">Modālie logi</a></li>
 
-                <li class="has-children"><a class="nav <?php if ($saite == "/ds/komponentes/kartinas.php") {
+                <li class="has-children"><a class="nav <?php if ($saite == "/komponentes/kartinas.php") {
                                                                             echo "active";
                                                                         } ?>"
-                        href="/ds/komponentes/kartinas.php">Kartiņas</a></li>
+                        href="/komponentes/kartinas.php">Kartiņas</a></li>
 
-                <li class="has-children"><a class="nav <?php if ($saite == "/ds/komponentes/koks.php") {
+                <li class="has-children"><a class="nav <?php if ($saite == "/komponentes/koks.php") {
                                                                             echo "active";
-                                                                        } ?>" href="/ds/komponentes/koks.php">Koka
+                                                                        } ?>" href="/komponentes/koks.php">Koka
                         skata navigācija</a></li>
 
-                <li class="has-children"><a class="nav <?php if ($saite == "/ds/komponentes/lapu-numeracija.php") {
+                <li class="has-children"><a class="nav <?php if ($saite == "/komponentes/lapu-numeracija.php") {
                                                                             echo "active";
                                                                         } ?>"
-                        href="/ds/komponentes/lapu-numeracija.php">Lapu numerācija</a></li>
+                        href="/komponentes/lapu-numeracija.php">Lapu numerācija</a></li>
 
-                <li class="has-children"><a class="nav <?php if ($saite == "/ds/komponentes/navigacija.php") {
+                <li class="has-children"><a class="nav <?php if ($saite == "/komponentes/navigacija.php") {
                                                                             echo "active";
                                                                         } ?>"
-                        href="/ds/komponentes/navigacija.php">Galvenā navigācija</a>
+                        href="/komponentes/navigacija.php">Galvenā navigācija</a>
                 </li>
 
-                <li class="has-children"><a class="nav <?php if ($saite == "/ds/komponentes/navigacijas-cels.php") {
+                <li class="has-children"><a class="nav <?php if ($saite == "/komponentes/navigacijas-cels.php") {
                                                                             echo "active";
                                                                         } ?>"
-                        href="/ds/komponentes/navigacijas-cels.php">Navigācijas ceļš</a></li>
+                        href="/komponentes/navigacijas-cels.php">Navigācijas ceļš</a></li>
 
-                <li class="has-children"><a class="nav <?php if ($saite == "/ds/komponentes/padomu-riki.php") {
+                <li class="has-children"><a class="nav <?php if ($saite == "/komponentes/padomu-riki.php") {
                                                                             echo "active";
                                                                         } ?>"
-                        href="/ds/komponentes/padomu-riki.php">Padomu rīki</a>
+                        href="/komponentes/padomu-riki.php">Padomu rīki</a>
                 </li>
-                <li class="has-children"><a class="nav <?php if ($saite == "/ds/komponentes/pazinojumi.php") {
+                <li class="has-children"><a class="nav <?php if ($saite == "/komponentes/pazinojumi.php") {
                                                                             echo "active";
                                                                         } ?>"
-                        href="/ds/komponentes/pazinojumi.php">Paziņojumi</a></li>
+                        href="/komponentes/pazinojumi.php">Paziņojumi</a></li>
 
-                <li class="has-children"><a class="nav <?php if ($saite == "/ds/komponentes/pogas.php") {
+                <li class="has-children"><a class="nav <?php if ($saite == "/komponentes/pogas.php") {
                                                                             echo "active";
                                                                         } ?>"
-                        href="/ds/komponentes/pogas.php">Pogas</a></li>
+                        href="/komponentes/pogas.php">Pogas</a></li>
 
-                <li class="has-children"><a class="nav <?php if ($saite == "/ds/komponentes/progresa-indikatori.php") {
+                <li class="has-children"><a class="nav <?php if ($saite == "/komponentes/progresa-indikatori.php") {
                                                                             echo "active";
                                                                         } ?>"
-                        href="/ds/komponentes/progresa-indikatori.php">Progresa indikātori</a></li>
+                        href="/komponentes/progresa-indikatori.php">Progresa indikātori</a></li>
 
-                <li class="has-children"><a class="nav <?php if ($saite == "/ds/komponentes/saraksti.php") {
+                <li class="has-children"><a class="nav <?php if ($saite == "/komponentes/saraksti.php") {
                                                                             echo "active";
                                                                         } ?>"
-                        href="/ds/komponentes/saraksti.php">Saraksti</a></li>
-                <li class="has-children"><a class="nav <?php if ($saite == "/ds/komponentes/tabulas.php") {
+                        href="/komponentes/saraksti.php">Saraksti</a></li>
+                <li class="has-children"><a class="nav <?php if ($saite == "/komponentes/tabulas.php") {
                                                                             echo "active";
                                                                         } ?>"
-                        href="/ds/komponentes/tabulas.php">Tabulas</a></li>
+                        href="/komponentes/tabulas.php">Tabulas</a></li>
 
-                <li class="has-children"><a class="nav <?php if ($saite == "/ds/komponentes/mapes.php") {
+                <li class="has-children"><a class="nav <?php if ($saite == "/komponentes/mapes.php") {
                                                                             echo "active";
                                                                         } ?>"
-                        href="/ds/komponentes/mapes.php">Mapes</a></li>
+                        href="/komponentes/mapes.php">Mapes</a></li>
 
-                <li class="has-children"><a class="nav <?php if ($saite == "/ds/komponentes/attelu-paraksti.php") {
+                <li class="has-children"><a class="nav <?php if ($saite == "/komponentes/attelu-paraksti.php") {
                                                                             echo "active";
                                                                         } ?>"
-                        href="/ds/komponentes/attelu-paraksti.php">Attēlu paraksti</a></li>
+                        href="/komponentes/attelu-paraksti.php">Attēlu paraksti</a></li>
 
-                <li class="has-children"><a class="nav <?php if ($saite == "/ds/komponentes/raksti.php") {
+                <li class="has-children"><a class="nav <?php if ($saite == "/komponentes/raksti.php") {
                                                                             echo "active";
                                                                         } ?>"
-                        href="/ds/komponentes/raksti.php">Raksti</a></li>
+                        href="/komponentes/raksti.php">Raksti</a></li>
 
-                <li class="has-children"><a class="nav <?php if ($saite == "/ds/komponentes/info-lodzini.php") {
+                <li class="has-children"><a class="nav <?php if ($saite == "/komponentes/info-lodzini.php") {
                                                                             echo "active";
                                                                         } ?>"
-                        href="/ds/komponentes/info-lodzini.php">Info lodziņi</a></li>
+                        href="/komponentes/info-lodzini.php">Info lodziņi</a></li>
 
-                <li class="has-children"><a class="nav <?php if ($saite == "/ds/komponentes/izlecosie-pazinojumi.php") {
+                <li class="has-children"><a class="nav <?php if ($saite == "/komponentes/izlecosie-pazinojumi.php") {
                                                                             echo "active";
                                                                         } ?>"
-                        href="/ds/komponentes/izlecosie-pazinojumi.php">Izlecošie paziņojumi</a></li>
+                        href="/komponentes/izlecosie-pazinojumi.php">Izlecošie paziņojumi</a></li>
 
-                <li class="has-children"><a class="nav <?php if ($saite == "/ds/komponentes/izcelts-teksts.php") {
+                <li class="has-children"><a class="nav <?php if ($saite == "/komponentes/izcelts-teksts.php") {
                                                                             echo "active";
                                                                         } ?>"
-                        href="/ds/komponentes/izcelts-teksts.php">Izcelts teksts</a></li>
+                        href="/komponentes/izcelts-teksts.php">Izcelts teksts</a></li>
 
-                <li class="has-children"><a class="nav <?php if ($saite == "/ds/komponentes/datu-ievades-laukums.php") {
+                <li class="has-children"><a class="nav <?php if ($saite == "/komponentes/datu-ievades-laukums.php") {
                                                                             echo "active";
                                                                         } ?>"
-                        href="/ds/komponentes/datu-ievades-laukums.php">Datu ievades laukums</a></li>
+                        href="/komponentes/datu-ievades-laukums.php">Datu ievades laukums</a></li>
 
-                <li class="has-children"><a class="nav <?php if ($saite == "/ds/komponentes/datu-ievades-ieteikumi.php") {
+                <li class="has-children"><a class="nav <?php if ($saite == "/komponentes/datu-ievades-ieteikumi.php") {
                                                                             echo "active";
                                                                         } ?>"
-                        href="/ds/komponentes/datu-ievades-ieteikumi.php">Datu ievades ieteikumi</a></li>
+                        href="/komponentes/datu-ievades-ieteikumi.php">Datu ievades ieteikumi</a></li>
 
-                <li class="has-children"><a class="nav <?php if ($saite == "/ds/komponentes/birkas.php") {
+                <li class="has-children"><a class="nav <?php if ($saite == "/komponentes/birkas.php") {
                                                                             echo "active";
                                                                         } ?>"
-                        href="/ds/komponentes/birkas.php">Birkas</a></li>
+                        href="/komponentes/birkas.php">Birkas</a></li>
 
-                <li class="has-children"><a class="nav <?php if ($saite == "/ds/komponentes/iscelu-poga.php") {
+                <li class="has-children"><a class="nav <?php if ($saite == "/komponentes/iscelu-poga.php") {
                                                                             echo "active";
                                                                         } ?>"
-                        href="/ds/komponentes/iscelu-poga.php">Īsceļu poga</a></li>
+                        href="/komponentes/iscelu-poga.php">Īsceļu poga</a></li>
 
-                <li class="has-children"><a class="nav <?php if ($saite == "/ds/komponentes/galerijas.php") {
+                <li class="has-children"><a class="nav <?php if ($saite == "/komponentes/galerijas.php") {
                                                                             echo "active";
                                                                         } ?>"
-                        href="/ds/komponentes/galerijas.php">Galerijas</a></li>
+                        href="/komponentes/galerijas.php">Galerijas</a></li>
 
-                <li class="has-children"><a class="nav <?php if ($saite == "/ds/komponentes/galvene.php") {
+                <li class="has-children"><a class="nav <?php if ($saite == "/komponentes/galvene.php") {
                                                                             echo "active";
                                                                         } ?>"
-                        href="/ds/komponentes/galvene.php">Galvene</a></li>
+                        href="/komponentes/galvene.php">Galvene</a></li>
 
-                <li class="has-children"><a class="nav <?php if ($saite == "/ds/komponentes/kajene.php") {
+                <li class="has-children"><a class="nav <?php if ($saite == "/komponentes/kajene.php") {
                                                                             echo "active";
                                                                         } ?>"
-                        href="/ds/komponentes/kajene.php">Kājene</a></li>
+                        href="/komponentes/kajene.php">Kājene</a></li>
 
             </ul>
         </li>
@@ -233,22 +233,22 @@
 
                 <li><a class="nav <?php if ($title == "Piemēri") {
                                                         echo "active";
-                                                    } ?>" href="/ds/piemeri">Par piemēriem</a></li>
+                                                    } ?>" href="/piemeri">Par piemēriem</a></li>
 
 
 
-                <li><a class="nav <?php if ($saite == "/ds/piemeri/mana.skola2030.php") {
+                <li><a class="nav <?php if ($saite == "/piemeri/mana.skola2030.php") {
                                                         echo "active";
-                                                    } ?>" href="/ds/piemeri/mana.skola2030.php">E-mācību vide</a></li>
+                                                    } ?>" href="/piemeri/mana.skola2030.php">E-mācību vide</a></li>
 
-                <li><a class="nav <?php if ($saite == "/ds/piemeri/mape.skola2030.php") {
+                <li><a class="nav <?php if ($saite == "/piemeri/mape.skola2030.php") {
                                                         echo "active";
-                                                    } ?>" href="/ds/piemeri/mape.skola2030.php">mape.skola2030.lv</a>
+                                                    } ?>" href="/piemeri/mape.skola2030.php">mape.skola2030.lv</a>
                 </li>
 
-                <li><a class="nav <?php if ($saite == "/ds/piemeri/tavaklase.php") {
+                <li><a class="nav <?php if ($saite == "/piemeri/tavaklase.php") {
                                                         echo "active";
-                                                    } ?>" href="/ds/piemeri/tavaklase.php">Tava klase</a></li>
+                                                    } ?>" href="/piemeri/tavaklase.php">Tava klase</a></li>
 
             </ul>
         </li>

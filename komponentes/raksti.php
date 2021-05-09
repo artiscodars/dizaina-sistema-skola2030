@@ -15,7 +15,7 @@ include '../includes/header.php'; ?>
                     <div class="row">
                         <div class="col-md-3">
 
-                            <img src="/ds/images/meitenes.jpg" class="card-img-top" alt="...">
+                            <img src="/images/meitenes.jpg" class="card-img-top" alt="...">
                         </div>
                         <div class="col">
                             <h3><a href="#">Kaut kāds raksta virsraksts</a></h3>
@@ -31,7 +31,7 @@ include '../includes/header.php'; ?>
                     <div class="row">
                         <div class="col-md-3">
 
-                            <img src="/ds/images/meitenes.jpg" class="card-img-top" alt="...">
+                            <img src="/images/meitenes.jpg" class="card-img-top" alt="...">
                         </div>
                         <div class="col">
                             <h3><a href="#">Kaut kāds raksta virsraksts</a></h3>
@@ -47,7 +47,7 @@ include '../includes/header.php'; ?>
                     <div class="row">
                         <div class="col-md-3">
 
-                            <img src="/ds/images/meitenes.jpg" class="card-img-top" alt="...">
+                            <img src="/images/meitenes.jpg" class="card-img-top" alt="...">
                         </div>
                         <div class="col">
                             <h3><a href="#">Kaut kāds raksta virsraksts</a></h3>
@@ -63,7 +63,7 @@ include '../includes/header.php'; ?>
                     <div class="row">
                         <div class="col-md-3">
 
-                            <img src="/ds/images/meitenes.jpg" class="card-img-top" alt="...">
+                            <img src="/images/meitenes.jpg" class="card-img-top" alt="...">
                         </div>
                         <div class="col">
                             <h3><a href="#">Kaut kāds raksta virsraksts</a></h3>
@@ -79,7 +79,7 @@ include '../includes/header.php'; ?>
                     <div class="row">
                         <div class="col-md-3">
 
-                            <img src="/ds/images/meitenes.jpg" class="card-img-top" alt="...">
+                            <img src="/images/meitenes.jpg" class="card-img-top" alt="...">
                         </div>
                         <div class="col">
                             <h3><a href="#">Kaut kāds raksta virsraksts</a></h3>
@@ -108,7 +108,7 @@ include '../includes/header.php'; ?>
                     pulvinar turpis. Maecenas erat erat, mollis nec volutpat sit amet, aliquam ac tortor.</p>
 
                 <div class="image-wrap">
-                    <img src="/ds/images/meitenes.jpg" class="card-img-top" alt="...">
+                    <img src="/images/meitenes.jpg" class="card-img-top" alt="...">
                     <div class="caption text-start">att. Divas meitenes mūzikas stundā</div>
                 </div>
                 <p>

@@ -16,7 +16,7 @@ include '../includes/header.php'; ?>
                 <div class="card">
               <div class="card-body">
                 <h2>Izkārtojums</h2>
-               <a href="/ds/visparigi/izkartojums.php">Vairāk <i class="ri-arrow-right-line"></i></a>
+               <a href="/visparigi/izkartojums.php">Vairāk <i class="ri-arrow-right-line"></i></a>
               </div>
             </div>
               </div>
@@ -24,7 +24,7 @@ include '../includes/header.php'; ?>
                 <div class="card">
               <div class="card-body">
                 <h2>Krāsas</h2>
-                 <a href="/ds/visparigi/krasas.php">Vairāk <i class="ri-arrow-right-line"></i></a>
+                 <a href="/visparigi/krasas.php">Vairāk <i class="ri-arrow-right-line"></i></a>
               </div>
             </div>
               </div>
@@ -32,7 +32,7 @@ include '../includes/header.php'; ?>
                 <div class="card">
               <div class="card-body">
                 <h2>Teksti</h2>
-               <a href="/ds/visparigi/tipografija.php">Vairāk <i class="ri-arrow-right-line"></i></a>
+               <a href="/visparigi/tipografija.php">Vairāk <i class="ri-arrow-right-line"></i></a>
               </div>
             </div>
               </div>
@@ -40,7 +40,7 @@ include '../includes/header.php'; ?>
                 <div class="card">
               <div class="card-body">
                 <h2>Ikonas</h2>
-                 <a href="/ds/visparigi/ikonas.php">Vairāk <i class="ri-arrow-right-line"></i></a>
+                 <a href="/visparigi/ikonas.php">Vairāk <i class="ri-arrow-right-line"></i></a>
               </div>
             </div>
               </div>

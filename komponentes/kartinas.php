@@ -14,7 +14,7 @@ include '../includes/header.php'; ?>
                     <div class="col-md-3">
 
                         <div class="card">
-                            <img src="/ds/images/meitenes.jpg" class="card-img-top" alt="...">
+                            <img src="/images/meitenes.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Kartiņas nosaukums</h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
@@ -27,7 +27,7 @@ include '../includes/header.php'; ?>
                     <div class="col-md-3">
 
                         <div class="card mb-3">
-                            <img src="/ds/images/meitenes.jpg" class="card-img-top" alt="...">
+                            <img src="/images/meitenes.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Kartiņas nosaukums</h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
@@ -46,7 +46,7 @@ include '../includes/header.php'; ?>
                                     vestibulum scelerisque massa, quis suscipit felis imperdiet sit amet.</p>
                                 <p class="card-text"><small class="text-muted">Atjaunots pirms 3 minūtēm</small></p>
                             </div>
-                            <img src="/ds/images/meitenes.jpg" class="card-img-bottom" alt="...">
+                            <img src="/images/meitenes.jpg" class="card-img-bottom" alt="...">
                         </div>
 
                     </div>
@@ -54,7 +54,7 @@ include '../includes/header.php'; ?>
                     <div class="col-md-3">
 
                         <div class="card bg-dark text-white">
-                            <img src="/ds/images/meitenes.jpg" class="card-img" alt="...">
+                            <img src="/images/meitenes.jpg" class="card-img" alt="...">
                             <div class="card-img-overlay">
                                 <h5 class="card-title">Kartiņas nosaukums</h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
@@ -71,7 +71,7 @@ include '../includes/header.php'; ?>
                 <div class="card mb-3" style="max-width: 640px;">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <img src="/ds/images/meitenes.jpg" alt="..." style="max-width: 100%;">
+                            <img src="/images/meitenes.jpg" alt="..." style="max-width: 100%;">
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">

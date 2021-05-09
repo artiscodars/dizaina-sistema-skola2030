@@ -13,14 +13,14 @@ include '../includes/header.php'; ?>
 
                     <div class="col">
                         <div class="image-wrap">
-                            <img src="/ds/images/meitenes.jpg" class="card-img-top" alt="...">
+                            <img src="/images/meitenes.jpg" class="card-img-top" alt="...">
                             <div class="caption text-start">att. Divas meitenes mūzikas stundā</div>
                         </div>
 
                     </div>
                     <div class="col">
                         <div class="image-wrap">
-                            <img src="/ds/images/meitenes.jpg" class="card-img-top" alt="...">
+                            <img src="/images/meitenes.jpg" class="card-img-top" alt="...">
                             <div class="caption text-end">att. Divas meitenes mūzikas stundā</div>
                         </div>
                     </div>

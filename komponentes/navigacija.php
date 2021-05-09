@@ -11,7 +11,7 @@ include '../includes/header.php'; ?>
 
             <div class="bd-example">
 
-                <?php include $_SERVER["DOCUMENT_ROOT"].'/ds/includes/menu.php'; ?>
+                <?php include $_SERVER["DOCUMENT_ROOT"].'/includes/menu.php'; ?>
 
             </div>
 
