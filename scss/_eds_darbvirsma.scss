@@ -1,0 +1,20 @@
+.eds_darbvirsma {
+    .card {
+        margin-bottom: 15px;
+
+        &.eds-dokumenti {
+            background: $tonis-n
+        }
+
+        &.eds-svarigi {
+            background: $peleks-100;
+
+        }
+
+        &.eds-atgadinajumi {
+            background: $peleks-100;
+            color: $sarkans
+        }
+
+    }
+}

@@ -1,0 +1,283 @@
+/*.btn-primary {
+    color: #fff;
+    background: $tonis;
+    border-color: $tonis;
+
+    &:disabled {
+        color: #fff;
+        background-color: $tonis;
+        border-color: $tonis;
+    }
+
+    &:hover {
+        color: #fff;
+        background: $tonis;
+        border-color: $tonis;
+        opacity: 0.8;
+    }
+}
+
+.btn-secondary {
+    color: #fff;
+    background: $tonis-f;
+    border-color: $tonis-f;
+
+    &:disabled {
+        color: #fff;
+        background-color: $tonis-f;
+        border-color: $tonis-f;
+    }
+
+    &:hover {
+        color: #fff;
+        background: $tonis-f;
+        border-color: $tonis-f;
+        opacity: 0.8;
+    }
+}
+
+.btn-success {
+    color: #fff;
+    background: $zals;
+    border-color: $zals;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background: $zals;
+    border-color: $zals;
+    opacity: 0.8;
+}
+
+.btn-danger {
+    color: #fff;
+    background: $sarkans;
+    border-color: $sarkans;
+}
+
+.btn-danger:hover {
+    color: #fff;
+    background: $sarkans;
+    border-color: $sarkans;
+    opacity: 0.8;
+}
+
+.btn-warning {
+    color: #fff;
+    background: $oranzs;
+    border-color: $oranzs;
+}
+
+.btn-warning:hover {
+    color: #fff;
+    background: $oranzs;
+    border-color: $oranzs;
+    opacity: 0.8;
+}
+
+.btn-info {
+    color: #000;
+    background: $tirkizs;
+    border-color: $tirkizs;
+}
+
+.btn-info:hover {
+    color: #000;
+    background: $tirkizs;
+    border-color: $tirkizs;
+    opacity: 0.8;
+}
+
+.btn-light {
+    color: #000;
+    background: $tonis-n;
+    border-color: $tonis-n;
+}
+
+.btn-light:hover {
+    color: #000;
+    background: $tonis-m;
+    border-color: $tonis-m;
+}
+
+.btn-dark {
+    color: #fff;
+    background: $peleks-500;
+    border-color: $peleks-500;
+}
+
+.btn-dark:hover {
+    color: #fff;
+    background: $peleks-500;
+    border-color: $peleks-500;
+    opacity: 0.8;
+}
+
+//outlined
+
+.btn-outline-primary {
+    background: #fff;
+    color: $tonis;
+    border-color: $tonis;
+
+    &:disabled {
+        color: $tonis;
+        background-color: transparent;
+    }
+
+    &:hover {
+        background: #fff;
+        color: $tonis;
+        border-color: $tonis;
+        opacity: 0.8;
+    }
+}
+
+.btn-outline-secondary {
+    background: #fff;
+    color: $tonis-f;
+    border-color: $tonis-f;
+
+    &:disabled {
+        color: $tonis-g;
+        background-color: transparent;
+    }
+
+    &:hover {
+        background: #fff;
+        color: $tonis-f;
+        border-color: $tonis-f;
+        opacity: 0.8;
+    }
+}
+
+.btn-outline-success {
+    background: #fff;
+    color: $zals;
+    border-color: $zals;
+}
+
+.btn-outline-success:hover {
+    background: #fff;
+    color: $zals;
+    border-color: $zals;
+    opacity: 0.8;
+}
+
+.btn-outline-danger {
+    background: #fff;
+    color: $sarkans;
+    border-color: $sarkans;
+}
+
+.btn-outline-danger:hover {
+    background: #fff;
+    color: $sarkans;
+    border-color: $sarkans;
+    opacity: 0.8;
+}
+
+.btn-outline-warning {
+    background: #fff;
+    color: $oranzs;
+    border-color: $oranzs;
+}
+
+.btn-outline-warning:hover {
+    background: #fff;
+    color: $oranzs;
+    border-color: $oranzs;
+    opacity: 0.8;
+}
+
+.btn-outline-info {
+    background: #fff;
+    color: #333;
+    border-color: $tonis-m;
+}
+
+.btn-outline-info:hover {
+    background: #fff;
+    color: #333;
+    border-color: $tonis-m;
+    opacity: 0.8;
+}
+
+.btn-outline-light {
+    background: #fff;
+    color: #333;
+    border-color: $tonis-n;
+}
+
+.btn-outline-light:hover {
+    background: #fff;
+    color: #333;
+    border-color: $tonis-m;
+}
+
+.btn-outline-dark {
+    background: #fff;
+    color: $peleks-500;
+    border-color: $peleks-500;
+}
+
+.btn-outline-dark:hover {
+    background: #fff;
+    color: $peleks-500;
+    border-color: $peleks-500;
+    opacity: 0.8;
+}
+
+.vid-input-group .btn-outline-secondary {
+    border: 1px solid $tonis-m;
+}
+
+.btn-delete {
+    padding: 0;
+    line-height: 33px;
+    height: 33px;
+    width: 33px;
+    text-align: center;
+}
+
+.btn-delete-icon {
+    padding: 0;
+    background: #fff;
+    color: $sarkans;
+    border: $sarkans;
+    line-height: 33px;
+    height: 33px;
+    width: 33px;
+    text-align: center;
+}
+
+.btn-link {
+    font-weight: 400;
+    color: $tonis;
+    text-decoration: none;
+}
+*/
+
+.btn-success,
+.btn-success:disabled,
+.btn-success:hover,
+.btn-outline-success:hover,
+.btn-danger,
+.btn-danger:disabled,
+.btn-danger:hover,
+.btn-outline-danger:hover,
+.btn-warning,
+.btn-warning:disabled,
+.btn-warning:hover,
+.btn-outline-warning:hover,
+.btn-info,
+.btn-info:disabled,
+.btn-info:hover,
+.btn-outline-info:hover {
+    color: #fff;
+}
+
+.btn-outline-light {
+    border-color: $gaisi-peleks;
+    color: $tumsi-peleks;
+}

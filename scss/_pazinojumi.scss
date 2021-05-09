@@ -1,0 +1,36 @@
+.alert {
+    background-color: #fff;
+    border-radius: 0;
+    border-color: #eaeaea;
+    border-left-width: 5px;
+}
+
+.alert-primary {
+    border-left-color: $tonis;
+    color: $tonis;
+}
+
+.alert-secondary {
+    border-left-color: $tumsi-peleks;
+    color: $tumsi-peleks;
+}
+
+.alert-success {
+    border-left-color: $zals;
+    color: $zals;
+}
+
+.alert-danger {
+    border-left-color: $sarkans;
+    color: $sarkans;
+}
+
+.alert-warning {
+    border-left-color: $oranzs;
+    color: $oranzs;
+}
+
+.alert-info {
+    border-left-color: $tirkizs;
+    color: $tirkizs;
+}
