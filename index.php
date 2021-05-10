@@ -59,13 +59,20 @@ include 'includes/header.php'; ?>
 
 </div>
 
-<h5 class="mt-5">Par dizaina sistēmu</h5>
+<h2 class="mt-5">Par dizaina sistēmu</h2>
 <p>Dizaina sistēmas HTML/CSS ir veidots uz <b>Boostrap 5</b> bāzes, lai atspoguļotu dizaina sistēmas elementu izmantošanu noteikta dizaina izstrādes ietvarā. Pēc analoģijas var izmantot jebkuru citu dizaina izstrādes ietvaru, to atbilstoši pielāgojot šajā dizaina sistēmā attēlotajiem dizaina paraugiem.</p>
 
 <p>Šis dizain sistēmas uetvars var tikt izmantots kā bāzes šablons jaunu sistēmu izveidei.</p>
 
 <p>Dizaina sistēma var tikt papildināta ar jaunām dizaina un funkciunalitātes komponentēm. Veidokot jaunas komponentes galvenais nosacījums ir ievērot, lai tā iekļaujas pārējo dizaina elementu grupā.</p>
 
+<h2>Lejupielādes</h2>
+
+<p>Dizaina sistēma ir pieejama lejupielādei <a href="https://github.com/igstudija/dizaina-sistema-skola2030">GutHub</a>.</p>
+
+<p><a href="elementi.xd"><i class="ri-file-2-fill"></i> Dizaina sistēmas elementi (Adobe XD)</a></p>
+
+<p><a href="paraugi.xd"><i class="ri-file-2-fill"></i> Dizaina sistēmas paraugi (Adobe XD)</a></p>
 
 <h5 class="mt-5">Dizaina sistēmas izstrādātājs:</h5>
 <p>Artis Čodars, <a href="mailto:artis@igstudija.lv">artis@igstudija.lv</a> </p>

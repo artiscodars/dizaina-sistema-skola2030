@@ -7,6 +7,7 @@ include '../includes/header.php'; ?>
     <div class="row">
         <div class="col">
             <h1><?php echo $title;?></h1>
+            <p>Izlecošie paziņojumi tiek izmantoti, lai informētu lietotāju par kaut kādām darbībām, kas notiek sistēmā. Tās var būt gan lietotāja iniciētas, gan automātiskas.</p>
 
             <div class="bd-example">
 

@@ -72,12 +72,7 @@ include '../includes/header.php'; ?>
 
             </div>
 
-            <h3>Datu ievades birkas</h3>
-            <div class="bd-example">
-
-                <span class="badge bg-primary">Birka</span>
-
-            </div>
+            
 
         </div>
     </div>

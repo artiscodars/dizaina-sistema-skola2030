@@ -9,6 +9,23 @@ include '../includes/header.php'; ?>
         <div class="col">
             <h1><?php echo $title;?></h1>
 
+
+
+<div class="bd-example">
+
+<img src="images/moodle-1.svg">
+
+
+</div>
+
+<div class="bd-example">
+
+
+<img src="images/moodle-2.svg">
+
+</div>
+
+
         </div>
     </div>
 </div>

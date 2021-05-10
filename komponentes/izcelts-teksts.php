@@ -7,6 +7,8 @@ include '../includes/header.php'; ?>
         <div class="col">
             <h1><?php echo $title;?></h1>
 
+            <p>Šādi tiek izcelts teksts meklēšanas rezultātos, iezīmējot meklēto frāzi ar fona krāsu.</p>
+
             <div class="bd-example">
 
                 <div class="article">
