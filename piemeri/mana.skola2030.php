@@ -20,7 +20,6 @@ include '../includes/header.php'; ?>
 
 <div class="bd-example">
 
-
 <img src="images/moodle-2.svg">
 
 </div>
