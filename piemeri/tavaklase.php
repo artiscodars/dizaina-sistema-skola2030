@@ -11,13 +11,16 @@ include '../includes/header.php'; ?>
 
             <div class="bd-example">
 
-            <img src="images/klase-1.svg">
-            <br><br>
-            <img src="images/klase-2.svg">
-            <br><br>
-            <img src="images/klase-3.svg">
-            <br><br>
-            <img src="images/klase-4.svg">
+            <img src="images/klase-1.png">
+          </div>
+
+          <div class="bd-example">
+            <img src="images/klase-2.png">
+          </div>
+
+          <div class="bd-example">
+            <img src="images/klase-3.png">
+
 
             </div
 

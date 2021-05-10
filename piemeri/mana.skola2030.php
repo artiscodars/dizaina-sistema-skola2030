@@ -13,14 +13,14 @@ include '../includes/header.php'; ?>
 
 <div class="bd-example">
 
-<img src="images/moodle-1.svg">
+<img src="images/moodle-1.png">
 
 
 </div>
 
 <div class="bd-example">
 
-<img src="images/moodle-2.svg">
+<img src="images/moodle-2.png">
 
 </div>
 
