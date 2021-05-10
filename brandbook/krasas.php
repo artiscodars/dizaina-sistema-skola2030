@@ -23,7 +23,7 @@ include '../includes/header.php'; ?>
                 <div class="col">
                     <div class="card">
                         <div class="card-body text-center tonis-bg">
-                            $tonis
+                          CMYK: 60/80/0/0, RGB: 128/71/150
                         </div>
                     </div>
 
@@ -31,7 +31,7 @@ include '../includes/header.php'; ?>
                 <div class="col">
                     <div class="card">
                         <div class="card-body text-center oranzs-bg">
-                            $oranzs
+                          CMYK: 45/90/0/0, RGB:249/182/49
                         </div>
                     </div>
 
@@ -39,7 +39,7 @@ include '../includes/header.php'; ?>
                 <div class="col">
                     <div class="card">
                         <div class="card-body text-center tirkizs-bg">
-                            $tirkizs
+                          CMYK: 80/0/45/0, RGB: 0/182/49
                         </div>
                     </div>
 
@@ -55,7 +55,7 @@ include '../includes/header.php'; ?>
                 <div class="col">
                     <div class="card">
                         <div class="card-body text-center sarkans-bg">
-                            $sarkans
+                          CMYK: 0/72/73/0, RGB: 242/108/77
                         </div>
                     </div>
 
@@ -63,7 +63,7 @@ include '../includes/header.php'; ?>
                 <div class="col">
                     <div class="card">
                         <div class="card-body text-center zals-bg">
-                            $zals
+                          CMYK: 79/7/83/0, RGB: 34/168/98
                         </div>
                     </div>
 
@@ -71,7 +71,7 @@ include '../includes/header.php'; ?>
                 <div class="col">
                     <div class="card">
                         <div class="card-body text-center roza-bg">
-                            $roza
+                          CMYK: 0/80/58/0, RGB: 241/90/93
                         </div>
                     </div>
                 </div>
@@ -82,7 +82,7 @@ include '../includes/header.php'; ?>
                 <div class="col">
                     <div class="card">
                         <div class="card-body text-center zils-bg">
-                            $zils
+                          CMYK: 98/93/0/0, RGB: 24/37/170
                         </div>
                     </div>
 
@@ -90,7 +90,7 @@ include '../includes/header.php'; ?>
                 <div class="col">
                     <div class="card">
                         <div class="card-body text-center gaisi-peleks-bg">
-                            $gaisi-peleks
+                          CMYK: 0/0/0/10, RGB: 230/231/232
                         </div>
                     </div>
 
@@ -98,7 +98,7 @@ include '../includes/header.php'; ?>
                 <div class="col">
                     <div class="card">
                         <div class="card-body text-center tumsi-peleks-bg">
-                            $tumsi-peleks
+                          CMYK: 0/0/0/90, RGB: 65/64/66
                         </div>
                     </div>
                 </div>
@@ -113,7 +113,7 @@ include '../includes/header.php'; ?>
                 <div class="col">
                     <div class="card">
                         <div class="card-body text-center valodu-a-bg">
-                            $valodu-a
+                          CMYK: 95/69/27/10, RGB: 25/84/128
                         </div>
                     </div>
 
@@ -121,7 +121,7 @@ include '../includes/header.php'; ?>
                 <div class="col">
                     <div class="card">
                         <div class="card-body text-center valodu-b-bg">
-                            $valodu-b
+                          CMYK: 77/28/1/0, RGB: 19/148/209
                         </div>
                     </div>
 
@@ -129,7 +129,7 @@ include '../includes/header.php'; ?>
                 <div class="col">
                     <div class="card">
                         <div class="card-body text-center valodu-c-bg">
-                            $valodu-c
+                          CMYK: 55/10/0/0, RGB: 102/186/233
                         </div>
                     </div>
                 </div>
@@ -144,7 +144,10 @@ include '../includes/header.php'; ?>
                 <div class="col">
                     <div class="card">
                         <div class="card-body text-center sociala-a-bg">
-                            $sociala-a
+                          CMYK:
+72/100/33/29,
+RGB:
+83/29/86
                         </div>
                     </div>
 
@@ -152,7 +155,10 @@ include '../includes/header.php'; ?>
                 <div class="col">
                     <div class="card">
                         <div class="card-body text-center sociala-b-bg">
-                            $sociala-b
+                          CMYK:
+58/95/18/4,
+RGB:
+128/51/125
                         </div>
                     </div>
 
@@ -160,7 +166,10 @@ include '../includes/header.php'; ?>
                 <div class="col">
                     <div class="card">
                         <div class="card-body text-center sociala-c-bg">
-                            $sociala-c
+                          CMYK:
+31/71/0/0,
+RGB:
+178/102/169
                         </div>
                     </div>
                 </div>
@@ -175,7 +184,10 @@ include '../includes/header.php'; ?>
                 <div class="col">
                     <div class="card">
                         <div class="card-body text-center dabaszinatnu-a-bg">
-                            $dabaszinatnu-a
+                          CMYK:
+7/93/100/1,
+RGB:
+220/56/38
                         </div>
                     </div>
 
@@ -183,7 +195,10 @@ include '../includes/header.php'; ?>
                 <div class="col">
                     <div class="card">
                         <div class="card-body text-center dabaszinatnu-b-bg">
-                            $dabaszinatnu-b
+                          CMYK:
+0/80/98/0,
+RGB:
+241/90/37
                         </div>
                     </div>
 
@@ -191,7 +206,10 @@ include '../includes/header.php'; ?>
                 <div class="col">
                     <div class="card">
                         <div class="card-body text-center dabaszinatnu-c-bg">
-                            $dabaszinatnu-c
+                          CMYK:
+2/59/77/0,
+RGB:
+240/131/75
                         </div>
                     </div>
                 </div>
@@ -206,7 +224,10 @@ include '../includes/header.php'; ?>
                 <div class="col">
                     <div class="card">
                         <div class="card-body text-center matematikas-a-bg">
-                            $matematikas-a
+                          CMYK:
+87/34/56/13,
+RGB:
+8/120/114
                         </div>
                     </div>
 
@@ -214,7 +235,10 @@ include '../includes/header.php'; ?>
                 <div class="col">
                     <div class="card">
                         <div class="card-body text-center matematikas-b-bg">
-                            $matematikas-b
+                          CMYK:
+81/17/52/1,
+RGB:
+5/155/140
                         </div>
                     </div>
 
@@ -222,7 +246,10 @@ include '../includes/header.php'; ?>
                 <div class="col">
                     <div class="card">
                         <div class="card-body text-center matematikas-c-bg">
-                            $matematikas-c
+                          CMYK:
+55/0/32/0,
+RGB:
+110/200/187
                         </div>
                     </div>
                 </div>
@@ -237,7 +264,10 @@ include '../includes/header.php'; ?>
                 <div class="col">
                     <div class="card">
                         <div class="card-body text-center kulturas-a-bg">
-                            $kulturas-a
+                          CMYK:
+89/100/31/22,
+RGB:
+61/36/96
                         </div>
                     </div>
 
@@ -245,7 +275,10 @@ include '../includes/header.php'; ?>
                 <div class="col">
                     <div class="card">
                         <div class="card-body text-center kulturas-b-bg">
-                            $kulturas-b
+                          CMYK:
+75/94/5/0,
+RGB:
+100/56/143
                         </div>
                     </div>
 
@@ -253,7 +286,10 @@ include '../includes/header.php'; ?>
                 <div class="col">
                     <div class="card">
                         <div class="card-body text-center kulturas-c-bg">
-                            $kulturas-c
+                          CMYK:
+41/54/0/0,
+RGB:
+155/126/186
                         </div>
                     </div>
                 </div>
@@ -268,7 +304,10 @@ include '../includes/header.php'; ?>
                 <div class="col">
                     <div class="card">
                         <div class="card-body text-center tehnologiju-a-bg">
-                            $tehnologiju-a
+                          CMYK:
+18/100/96/10,
+RGB:
+186/32/40
                         </div>
                     </div>
 
@@ -276,7 +315,10 @@ include '../includes/header.php'; ?>
                 <div class="col">
                     <div class="card">
                         <div class="card-body text-center tehnologiju-b-bg">
-                            $tehnologiju-b
+                          CMYK:
+7/100/85/1,
+RGB:
+221/0/49
                         </div>
                     </div>
 
@@ -284,7 +326,10 @@ include '../includes/header.php'; ?>
                 <div class="col">
                     <div class="card">
                         <div class="card-body text-center tehnologiju-c-bg">
-                            $tehnologiju-c
+                          CMYK:
+7/100/85/1,
+RGB:
+221/0/49
                         </div>
                     </div>
                 </div>
@@ -299,7 +344,10 @@ include '../includes/header.php'; ?>
                 <div class="col">
                     <div class="card">
                         <div class="card-body text-center sports-a-bg">
-                            $sports-a
+                          CMYK:
+65/13/81/1,
+RGB:
+101/169/96
                         </div>
                     </div>
 
@@ -307,50 +355,7 @@ include '../includes/header.php'; ?>
 
             </div>
 
-            <h2 class="ds">
-                Palīgkrāsas
-            </h2>
-
-            <div class="row justify-content-center no-gutters">
-                <div class="col">
-                    <div class="card">
-                        <div class="card-body text-center tonis-peleks-500-bg">
-                            $peleks-500
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <div class="card-body text-center  tonis-peleks-400-bg">
-                            $peleks-400
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <div class="card-body text-center tonis-peleks-300-bg">
-                            $peleks-300
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <div class="card-body text-center tonis-peleks-200-bg">
-                            $peleks-200
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <div class="card-body text-center tonis-peleks-100-bg">
-                            $peleks-100
-                        </div>
-                    </div>
-                </div>
-
-            </div>
+            
 
         </div>
     </div>

@@ -15,7 +15,7 @@
 @import "../scss/_menu.scss";
 
 @import "../scss/_saites.scss";
-@import "../scss/_virsraksti.scss";
+@import "../scss/_tipografija.scss";
 @import "../scss/_akordeoni.scss";
 @import "../scss/_forms.scss";
 @import "../scss/_koks.scss";
@@ -39,37 +39,5 @@
 @import "../scss/_stilagramatai.scss";
 
 @import "../scss/bootstrap_rw.scss";
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&subset=cyrillic,cyrillic-ext,latin-ext");
 
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css");
-.lead {
-    font-size: 1.1rem;
-    font-weight: 301;
-}
-
-.footnote-link {
-    cursor: pointer;
-    color: #2f4984;
-    text-decoration: underline;
-}
-
-.footnote-link:hover {
-    color: #7485a2;
-}
-
-.devider {
-    height: 20px;
-}
-
-.datepicker {
-    padding-right: 30px;
-    background-image: url("images/calendar-alt-regular.svg");
-    background-size: 16px 16px;
-    background-position: right 7px center;
-    background-repeat: no-repeat;
-}
-
-footer {
-    display: block;
-    height: 70px;
-}

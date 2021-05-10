@@ -1,6 +1,6 @@
 <?php
 $parent = "visparigi";
-$title = "Tipogrāfija";
+$title = "Teksti";
 include '../includes/header.php'; ?>
 <div class="container">
     <div class="row">

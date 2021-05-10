@@ -25,12 +25,9 @@ include '../includes/header.php'; ?>
             <div class="row  mb-5">
 
                 <div class="col-md-8">
-                  <p>Skola2030 interneta bāzētajos produktos var izmantot <a href="https://remixicon.com/" target="_blank">https://remixicon.com/</a>  ikonas.</p>
+                  <p>Par ikono izmntošanu Skola2030 interneta bāzētajos produktos lasīt <a href="/visparigi/ikonas.php" target="_blank">šeit</a>.</p>
 
-                  <h3>Ikonu pakotnes</h3>
-
-  <a href="RemixIcon_Fonts_v2.5.0 (1).zip"><i class="ri-file-zip-line"></i> Ikonu fonti</a><br>
-  <a href="RemixIcon_SVG_v2.5.0 (1).zip"><i class="ri-file-zip-line"></i> SVG ikonas</a>
+                
 
                 </div>
 

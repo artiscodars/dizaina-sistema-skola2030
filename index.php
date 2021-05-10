@@ -11,23 +11,17 @@ include 'includes/header.php'; ?>
 
 <div class="banner">
   <h1>Skola2030 dizaina sistēma</h1>
-  <p>Projekta Skola2030 dizaina sistēma izstrādāta, lai palīdzētu veidot vienota stila uz dizaina sistēmas projekta ietvaros, nodrošinot to lietotājiem ērtumu un viendabīgumu.</p>
-
 </div>
 
+  <p>Projekta Skola2030 dizaina sistēma izstrādāta, lai palīdzētu veidot vienota stila uz dizaina sistēmu balstītu interneta projektu izstrādi, kas nodrošinās lietotājiem vienotus sistēmu izmantošanas principus un līdzīgas saskarnes.</p>
 
 
-<p>  Lai nodrošinātu projekta Skola2030 pakalpojumu atbilstību mūsdienu pieejamības un lietojamības prasībām tās interneta vietnes un digitālo produktu dizains un prototipi jāveido, balstoties uz vienotiem dizaina sistēmas elementiem.</p>
+        <p>Dizaina sistēmu, ir strukturēts savstarpēji saistītu modeļu un kopīgas izmantošanas kopums, kas dod ievirzi Skola2030 digitālo produktu projektēšanā un izstrādē. </p>
 
 
-          <h2>Mērķis</h2>
-        <p>  Izstrādāt dizaina sistēmu, kas ir strukturēts savstarpēji saistītu modeļu un kopīgas izmantošanas kopums, lai palīdzētu Skola2030 digitālo produktu projektēšanā un izstrādē. </p>
+          <p>  Dizaina sistēma kalpo par atsauci dažādām iesaistītajām digitālā produkta izstrādes pusēm, piemēram, dizaineriem, izstrādātājiem, tekstu autoriem un projektu vadītājiem. </p>
 
-
-          <h2>Uzdevums</h2>
-          <p>  Dizaina sistēmas uzdevums būs kalpot par atsauci dažādām iesaistītajām digitālā produkta izstrādes pusēm, piemēram, dizaineriem, izstrādātājiem, tekstu autoriem un projektu vadītājiem. </p>
-
-
+<h2 class="mt-5 mb-3">Dizaina sistēmas sadaļas</h2>
 
 <div class="row d-flex align-items-stretch ds-sadalas">
   <div class="col">

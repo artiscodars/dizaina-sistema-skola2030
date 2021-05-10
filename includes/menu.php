@@ -34,6 +34,11 @@
                                                         echo "active";
                                                     } ?>" href="/brandbook/ikonas.php">Ikonas</a></li>
 
+
+                                                    <li><a class="nav <?php if ($saite == "/brandbook/elementi.php") {
+                                                                                            echo "active";
+                                                                                        } ?>" href="/brandbook/elementi.php">Grafiskie elementi</a></li>
+
             </ul>
 
         </li>
@@ -61,7 +66,7 @@
                                                     } ?>" href="/visparigi/krasas.php">Krāsas</a></li>
                 <li><a class="nav <?php if ($saite == "/visparigi/tipografija.php") {
                                                         echo "active";
-                                                    } ?>" href="/visparigi/tipografija.php">Tipogrāfija</a></li>
+                                                    } ?>" href="/visparigi/tipografija.php">Teksti</a></li>
 
                 <li><a class="nav <?php if ($saite == "/visparigi/ikonas.php") {
                                                         echo "active";
