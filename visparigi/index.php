@@ -9,7 +9,7 @@ include '../includes/header.php'; ?>
             <h1><?php echo $title;?></h1>
 
 
-            <p>Te par vispārīgajiem diziana nosacījumiem...</p>
+            <p>Dizaina sistēmas vispārīgā daļa apraksta interneta sistēmu vēlamo izkārtojumu, izmantojamās krāsas, burtu veidolus un izmērus, kā arī piedāvā ikonu bibliotāku.</p>
 
             <div class="row d-flex align-items-stretch ds-sadalas">
               <div class="col">
