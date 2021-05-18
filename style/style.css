@@ -11256,6 +11256,32 @@ h6, .h6,
   font-size: 0.9rem;
 }
 
+.form-signin {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin: auto;
+  width: 300px;
+  text-align: center;
+}
+
+.form-signin img.logo {
+  margin: auto;
+  display: block;
+  width: 90%;
+  height: auto;
+  margin-bottom: 50px;
+  /*nn*/
+}
+
+.form-signin .form-floating {
+  margin-bottom: 15px;
+}
+
+.form-signin .checkbox {
+  text-align: left;
+  padding-left: 13px;
+}
+
 ul.koks {
   list-style: none;
   margin: 0;

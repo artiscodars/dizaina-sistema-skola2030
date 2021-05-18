@@ -82,6 +82,9 @@
             <ul id="piemeri" class="collapse <?php if ($parent == "piemeri" && ($_COOKIE['minimenu']=="off" || $_COOKIE['minimenu']=="")) { echo 'show'; } ?>" data-bs-parent="#menu">
 
                 <li><a class="nav <?php if ($title == "Piemēri") { echo "active"; } ?>" href="/piemeri">Par piemēriem</a></li>
+
+  <li><a class="nav <?php if ($saite == "/piemeri/autorizacija.php") { echo "active"; } ?>" href="/piemeri/autorizacija.php">Autorizācija</a></li>
+
                 <li><a class="nav <?php if ($saite == "/piemeri/mana.skola2030.php") { echo "active"; } ?>" href="/piemeri/mana.skola2030.php">E-mācību vide</a></li>
                 <li><a class="nav <?php if ($saite == "/piemeri/mape.skola2030.php") { echo "active"; } ?>" href="/piemeri/mape.skola2030.php">mape.skola2030.lv</a></li>
                 <li><a class="nav <?php if ($saite == "/piemeri/tavaklase.php") { echo "active"; } ?>" href="/piemeri/tavaklase.php">Tava klase</a></li>

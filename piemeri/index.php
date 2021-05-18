@@ -22,7 +22,15 @@ include '../includes/header.php'; ?>
 <h2 class="mt-5">Sistēmu piemēri</h2>
 
 <div class="row d-flex align-items-stretch ds-sadalas">
-  <div class="col-md-4 mb-3">
+  <div class="col-md-3 mb-3">
+    <div class="card">
+  <div class="card-body">
+    <h2>Autorizācija</h2>
+   <a href="/piemeri/autorizacija.php">Vairāk <i class="ri-arrow-right-line"></i></a>
+  </div>
+</div>
+  </div>
+  <div class="col-md-3 mb-3">
     <div class="card">
   <div class="card-body">
     <h2>E-mācību vide (Moodle)</h2>
@@ -30,7 +38,7 @@ include '../includes/header.php'; ?>
   </div>
 </div>
   </div>
-  <div class="col-md-4 mb-3">
+  <div class="col-md-3 mb-3">
     <div class="card">
   <div class="card-body">
     <h2>mape.skola2030.lv</h2>
@@ -38,7 +46,7 @@ include '../includes/header.php'; ?>
   </div>
 </div>
   </div>
-  <div class="col-md-4 mb-3">
+  <div class="col-md-3 mb-3">
     <div class="card">
   <div class="card-body">
     <h2>Tava klase</h2>

@@ -13,7 +13,7 @@ include 'includes/header.php'; ?>
   <h1>Skola2030 dizaina sistēma</h1>
 </div>
 
-  <p>Projekta Skola2030 dizaina sistēma izstrādāta, lai palīdzētu veidot vienota stila uz dizaina sistēmu balstītu interneta projektu izstrādi, kas nodrošinās lietotājiem vienotus sistēmu izmantošanas principus un līdzīgas saskarnes.</p>
+  <p>Projekta Skola2030 dizaina sistēma izstrādāta, lai palīdzētu veidot vienota stila un uz dizaina sistēmu balstītu interneta projektu izstrādi, kas nodrošinās lietotājiem vienotus sistēmu izmantošanas principus un līdzīgas saskarnes.</p>
 
 
         <p>Dizaina sistēmu, ir strukturēts savstarpēji saistītu modeļu un kopīgas izmantošanas kopums, kas dod ievirzi Skola2030 digitālo produktu projektēšanā un izstrādē. </p>
@@ -70,9 +70,9 @@ include 'includes/header.php'; ?>
 
 <p>Dizaina sistēma ir pieejama lejupielādei <a href="https://github.com/igstudija/dizaina-sistema-skola2030">GutHub</a>.</p>
 
-<p><a href="elementi.xd"><i class="ri-file-2-fill"></i> Dizaina sistēmas elementi (Adobe XD)</a></p>
+<p><a href="elementi_v2.xd"><i class="ri-file-2-fill"></i> Dizaina sistēmas elementi (Adobe XD)</a></p>
 
-<p><a href="paraugi.xd"><i class="ri-file-2-fill"></i> Dizaina sistēmas paraugi (Adobe XD)</a></p>
+<p><a href="piemeri_v2.xd"><i class="ri-file-2-fill"></i> Dizaina sistēmas piemēri (Adobe XD)</a></p>
 
 <h5 class="mt-5">Dizaina sistēmas izstrādātājs:</h5>
 <p>Artis Čodars, <a href="mailto:artis@igstudija.lv">artis@igstudija.lv</a> </p>
