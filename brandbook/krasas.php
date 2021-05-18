@@ -11,7 +11,10 @@ include '../includes/header.php'; ?>
                 <?php echo $title; ?>
             </h1>
 
-            <p>Sistēmās jāizmanto zemāk uzskaitītās krāsas. Krāsām SCSS ir definēti mainīgie, piemēram, <b>$tonis</b>.
+            <p>Zīmola grāmata nosaka, ka zemāk uzskaitītās krāsas tiek izmantotas drukas darbiem.
+            </p>
+            <p>
+Interneta projektu krāsas un to kodi ir aplūkojami <a href="/visparigi/krasas.php">šeit</a>.
             </p>
 
             <h2 class="ds">
@@ -355,7 +358,7 @@ RGB:
 
             </div>
 
-            
+
 
         </div>
     </div>

@@ -8,7 +8,7 @@
                 <txt>Zīmola grāmata</txt>
             </span>
 
-            <ul id="brandbook" class="collapse <?php if ($parent == "brandbook" && $_COOKIE['minimenu']=="off") { echo 'show'; } ?>" data-bs-parent="#menu">
+            <ul id="brandbook" class="collapse <?php if ($parent == "brandbook" && ($_COOKIE['minimenu']=="off" || $_COOKIE['minimenu']=="")) { echo 'show'; } ?>" data-bs-parent="#menu">
 
                 <li><a class="nav <?php if ($title == "Zīmola grāmata") { echo "active"; } ?>" href="/brandbook">Par zīmola grāmatu</a></li>
                 <li><a class="nav <?php if ($saite == "/brandbook/logo.php") { echo "active"; } ?>" href="/brandbook/logo.php">Logotips</a></li>
@@ -26,7 +26,7 @@
                 <txt>Vispārīgi</txt>
             </span>
 
-            <ul id="visparigi" class="collapse <?php if ($parent == "visparigi" && $_COOKIE['minimenu']=="off") { echo 'show'; } ?>" data-bs-parent="#menu">
+            <ul id="visparigi" class="collapse <?php if ($parent == "visparigi" && ($_COOKIE['minimenu']=="off" || $_COOKIE['minimenu']=="")) { echo 'show'; } ?>" data-bs-parent="#menu">
 
                 <li><a class="nav <?php if ($title == "Vispārīgi") { echo "active"; } ?>" href="/visparigi">Ievads</a></li>
                 <li><a class="nav <?php if ($saite == "/visparigi/izkartojums.php") { echo "active"; } ?>" href="/visparigi/izkartojums.php">Izkārtojums</a></li>
@@ -41,7 +41,7 @@
             <span data-bs-toggle="collapse" data-bs-target="#komponentes" class="<?php if ($parent != "komponentes") { echo 'collapsed'; } else {echo 'active';} ?>" aria-expanded="false"><i class="bi bi-puzzle"></i>
                 <txt>Komponentes</txt>
             </span>
-            <ul id="komponentes" class="collapse <?php if ($parent == "komponentes" && $_COOKIE['minimenu']=="off") { echo 'show'; } ?>" data-bs-parent="#menu">
+            <ul id="komponentes" class="collapse <?php if ($parent == "komponentes" && ($_COOKIE['minimenu']=="off" || $_COOKIE['minimenu']=="")) { echo 'show'; } ?>" data-bs-parent="#menu">
 
                 <li><a class="nav <?php if ($title == "Komponentes") { echo "active"; } ?>" href="/komponentes">Par komponentēm</a></li>
                 <li class="has-children"><a class="nav <?php if ($saite == "/komponentes/akordeoni.php") { echo "active"; } ?>" href="/komponentes/akordeoni.php">Akordeoni</a></li>
@@ -79,7 +79,7 @@
           <span data-bs-toggle="collapse" data-bs-target="#piemeri" class="<?php if ($parent != "piemeri") { echo 'collapsed'; } else {echo 'active';}  ?>" aria-expanded="false"><i class="bi bi-eye"></i>
                 <txt>Piemēri</txt>
             </span>
-            <ul id="piemeri" class="collapse <?php if ($parent == "piemeri" && $_COOKIE['minimenu']=="off") { echo 'show'; } ?>" data-bs-parent="#menu">
+            <ul id="piemeri" class="collapse <?php if ($parent == "piemeri" && ($_COOKIE['minimenu']=="off" || $_COOKIE['minimenu']=="")) { echo 'show'; } ?>" data-bs-parent="#menu">
 
                 <li><a class="nav <?php if ($title == "Piemēri") { echo "active"; } ?>" href="/piemeri">Par piemēriem</a></li>
                 <li><a class="nav <?php if ($saite == "/piemeri/mana.skola2030.php") { echo "active"; } ?>" href="/piemeri/mana.skola2030.php">E-mācību vide</a></li>

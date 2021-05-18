@@ -4,35 +4,66 @@
     background-color: #fff;
     border-radius: 0;
     border-color: #eaeaea;
-    border-left-width: 5px;
+    border-left-width: 0px;
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top:-1px;
+      bottom: -1px;
+      width: 5px;
+    }
+
+    a {
+      text-decoration: underline;
+    }
 }
 
 .alert-primary {
-    border-left-color: $tonis;
+
     color: $tonis;
+    &::before {
+      background: $tonis;
+    }
 }
 
 .alert-secondary {
-    border-left-color: $tumsi-peleks;
+
     color: $tumsi-peleks;
+    &::before {
+      background: $tumsi-peleks;
+    }
 }
 
 .alert-success {
-    border-left-color: $zals;
+
     color: $zals;
+    &::before {
+      background: $zals;
+    }
 }
 
 .alert-danger {
-    border-left-color: $sarkans;
+
     color: $sarkans;
+    &::before {
+      background: $sarkans;
+    }
 }
 
 .alert-warning {
-    border-left-color: $oranzs;
+
     color: $oranzs;
+    &::before {
+      background: $oranzs;
+    }
 }
 
 .alert-info {
-    border-left-color: $tirkizs;
+
     color: $tirkizs;
+    &::before {
+      background: $tirkizs;
+    }
 }

@@ -7,7 +7,7 @@ include '../includes/header.php'; ?>
     <div class="row">
         <div class="col">
             <h1><?php echo $title;?></h1>
-            <p>Padomu rīki ir izlecoši lodziņi, kas paskaidro pogas vai saites darbību. To izmanto gadījumos, kad saitē vai pogas tekstā nepietiek vioetas, lai ar tās nosaukuma palīdzību skaidri pateiktu, kam tā domāta.</p>
+            <p>Padomu rīki ir izlecoši lodziņi, kas paskaidro pogas vai saites darbību. To izmanto gadījumos, kad saitē vai pogas tekstā nepietiek vietas, lai ar tās nosaukuma palīdzību skaidri pateiktu, kam tā domāta.</p>
 
             <div class="bd-example">
                 <button type="button" class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="top"

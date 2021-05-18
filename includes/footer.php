@@ -6,12 +6,22 @@
 
 </footer>
 
+<script>
+    window.Userback = window.Userback || {};
+    Userback.access_token = '29923|43872|KVo83IFOrdFQFn5OYh639i3xA';
+    (function(d) {
+        var s = d.createElement('script');s.async = true;
+        s.src = 'https://static.userback.io/widget/v1.js';
+        (d.head || d.body).appendChild(s);
+    })(document);
+</script>
+
 </body>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
 
 <script src="/fancybox/dist/jquery.fancybox.min.js"></script>
 
@@ -71,6 +81,38 @@ function checkCookie() {
         }
     }*/
 }
+
+/*
+$(document).click(function(e) {
+	if (!$(e.target).is('.mini-menu')) {
+    	$('.show').collapse('hide');
+    }
+});*/
+
+
+$(".mini-menu").click(function() {
+
+//  $("span").attr('aria-expanded', true).setAttribute('aria-expanded', 'false');
+$(".show").prev().attr('aria-expanded', 'false').toggleClass("collapsed");
+$(".show").toggleClass("show");
+});
+
+
+
+$(".left_menu").scroll(function() {
+  sessionStorage.scrollTop = $(this).scrollTop();
+});
+
+$(document).ready(function() {
+  if (sessionStorage.scrollTop != "undefined") {
+    $(".left_menu").scrollTop(sessionStorage.scrollTop);
+  }
+});
+
+
+
+
+
 </script>
 
 </html>

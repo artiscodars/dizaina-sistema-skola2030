@@ -4,3 +4,48 @@ mark {
     color: #fff;
     padding: 0;
 }
+
+
+a.card {
+  &:hover {
+    text-decoration: none;
+    background: #f6f6f6;
+  }
+
+.card-img-overlay {
+  position: relative;
+  &::before {
+    content:"";
+    position: absolute;
+    left: 0;
+    top:0;
+    right:0;
+    bottom: 0;
+    background: #000;
+    opacity: 0.5;
+  }
+}
+
+}
+
+
+.card {
+  .card-img-overlay {
+
+    &::before {
+      content:"";
+      position: absolute;
+      left: 0;
+      top:0;
+      right:0;
+      bottom: 0;
+      background: #000;
+      opacity: 0.3;
+    }
+
+    .card-title,
+    .card-text {
+      position: relative;
+    }
+  }
+}

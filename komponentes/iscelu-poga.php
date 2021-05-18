@@ -151,9 +151,9 @@ include '../includes/header.php'; ?>
   </g>
   <path id="plus-2" data-name="plus" d="M18.248,14.407H10.436v7.812H7.812V14.407H0V11.843H7.812V4.031h2.624v7.812h7.812Z" transform="translate(216.484 133.5)" fill="#fff"/>
   <path id="pluscodes-2" data-name="pluscodes" d="M1.84,10.441A1.845,1.845,0,1,1,3.681,8.6a1.842,1.842,0,0,1-1.84,1.844ZM8.613,3.747A1.845,1.845,0,1,1,10.453,1.9a1.842,1.842,0,0,1-1.84,1.845Zm6.681,6.695A1.845,1.845,0,1,1,17.134,8.6a1.842,1.842,0,0,1-1.84,1.844Zm-4.84,4.851a1.841,1.841,0,1,1-1.84-1.845,1.842,1.842,0,0,1,1.84,1.845m-1.84-4.851A1.845,1.845,0,1,1,10.453,8.6a1.842,1.842,0,0,1-1.84,1.844Z" transform="translate(217.599 78.582)" fill="#fff"/>
-  <text id="Diskutēt_ar_palīdzības_dienestu" data-name="Diskutēt ar palīdzības dienestu" transform="translate(0 32)" font-size="14" font-family="Lato-Regular, Lato"><tspan x="0" y="0">Diskutēt ar palīdzības dienestu</tspan></text>
-  <text id="Kaut_kāda_darbība" data-name="Kaut kāda darbība" transform="translate(78 94)" font-size="14" font-family="Lato-Regular, Lato"><tspan x="0" y="0">Kaut kāda darbība</tspan></text>
-  <text id="Pievienot_materiālu" data-name="Pievienot materiālu" transform="translate(71 152)" font-size="14" font-family="Lato-Regular, Lato"><tspan x="0" y="0">Pievienot materiālu</tspan></text>
+  <text id="Diskutēt_ar_palīdzības_dienestu" data-name="Diskutēt ar palīdzības dienestu" transform="translate(0 32)" font-size="14" ><tspan x="0" y="0">Diskutēt ar palīdzības dienestu</tspan></text>
+  <text id="Kaut_kāda_darbība" data-name="Kaut kāda darbība" transform="translate(78 94)" font-size="14" ><tspan x="0" y="0">Kaut kāda darbība</tspan></text>
+  <text id="Pievienot_materiālu" data-name="Pievienot materiālu" transform="translate(71 152)" font-size="14" ><tspan x="0" y="0">Pievienot materiālu</tspan></text>
 </svg>
 
 

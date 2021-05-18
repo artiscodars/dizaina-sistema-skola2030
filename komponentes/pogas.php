@@ -8,14 +8,14 @@ include '../includes/header.php'; ?>
             <h1><?php echo $title;?></h1>
             <div class="bd-example">
 
-                <button type="button" class="btn btn-primary">Primary</button>
-                <button type="button" class="btn btn-primary">Secondary</button>
-                <button type="button" class="btn btn-success">Success</button>
-                <button type="button" class="btn btn-danger">Danger</button>
-                <button type="button" class="btn btn-warning">Warning</button>
-                <button type="button" class="btn btn-info">Info</button>
-                <button type="button" class="btn btn-light">Light</button>
-                <button type="button" class="btn btn-dark">Dark</button>
+                <button type="button" class="btn btn-primary">Primārā</button>
+                <button type="button" class="btn btn-primary">Sekundārā</button>
+                <button type="button" class="btn btn-success">Izpildīt</button>
+                <button type="button" class="btn btn-danger">Uzmanību</button>
+                <button type="button" class="btn btn-warning">Brīdinājums</button>
+                <button type="button" class="btn btn-info">Informācija</button>
+                <button type="button" class="btn btn-light">Gaiša</button>
+                <button type="button" class="btn btn-dark">Tumša</button>
 
                 <button type="button" class="btn btn-link">Link</button>
             </div>
@@ -24,42 +24,42 @@ include '../includes/header.php'; ?>
 
             <div class="bd-example">
 
-                <button type="button" class="btn btn-outline-primary">Primary</button>
-                <button type="button" class="btn btn-outline-primary">Secondary</button>
-                <button type="button" class="btn btn-outline-success">Success</button>
-                <button type="button" class="btn btn-outline-danger">Danger</button>
-                <button type="button" class="btn btn-outline-warning">Warning</button>
-                <button type="button" class="btn btn-outline-info">Info</button>
-                <button type="button" class="btn btn-outline-light">Light</button>
-                <button type="button" class="btn btn-outline-dark">Dark</button>
+                <button type="button" class="btn btn-outline-primary">Primārā</button>
+                <button type="button" class="btn btn-outline-primary">Sekundārā</button>
+                <button type="button" class="btn btn-outline-success">Izpildīt</button>
+                <button type="button" class="btn btn-outline-danger">Uzmanību</button>
+                <button type="button" class="btn btn-outline-warning">Brīdinājums</button>
+                <button type="button" class="btn btn-outline-info">Informācija</button>
+                <button type="button" class="btn btn-outline-light">Gaiša</button>
+                <button type="button" class="btn btn-outline-dark">Tumša</button>
             </div>
 
             <h2>Neaktīvas pogas</h2>
 
             <div class="bd-example">
 
-                <button type="button" class="btn btn-primary" disabled="">Primary</button>
-                <button type="button" class="btn btn-primary" disabled="">Secondary</button>
-                <button type="button" class="btn btn-success" disabled="">Success</button>
-                <button type="button" class="btn btn-danger" disabled="">Danger</button>
-                <button type="button" class="btn btn-warning" disabled="">Warning</button>
-                <button type="button" class="btn btn-info" disabled="">Info</button>
-                <button type="button" class="btn btn-light" disabled="">Light</button>
-                <button type="button" class="btn btn-dark" disabled="">Dark</button>
+                <button type="button" class="btn btn-primary" disabled="">Primārā</button>
+                <button type="button" class="btn btn-primary" disabled="">Sekundārā</button>
+                <button type="button" class="btn btn-success" disabled="">Izpildīt</button>
+                <button type="button" class="btn btn-danger" disabled="">Uzmanību</button>
+                <button type="button" class="btn btn-warning" disabled="">Brīdinājums</button>
+                <button type="button" class="btn btn-info" disabled="">Informācija</button>
+                <button type="button" class="btn btn-light" disabled="">Gaiša</button>
+                <button type="button" class="btn btn-dark" disabled="">Tumša</button>
 
                 <button type="button" class="btn btn-link" disabled="">Link</button>
             </div>
 
             <div class="bd-example">
 
-                <button type="button" class="btn btn-outline-primary" disabled="">Primary</button>
-                <button type="button" class="btn btn-outline-primary" disabled="">Secondary</button>
-                <button type="button" class="btn btn-outline-success" disabled="">Success</button>
-                <button type="button" class="btn btn-outline-danger" disabled="">Danger</button>
-                <button type="button" class="btn btn-outline-warning" disabled="">Warning</button>
-                <button type="button" class="btn btn-outline-info" disabled="">Info</button>
-                <button type="button" class="btn btn-outline-light" disabled="">Light</button>
-                <button type="button" class="btn btn-outline-dark" disabled="">Dark</button>
+                <button type="button" class="btn btn-outline-primary" disabled="">Primārā</button>
+                <button type="button" class="btn btn-outline-primary" disabled="">Sekundārā</button>
+                <button type="button" class="btn btn-outline-success" disabled="">Izpildīt</button>
+                <button type="button" class="btn btn-outline-danger" disabled="">Uzmanību</button>
+                <button type="button" class="btn btn-outline-warning" disabled="">Brīdinājums</button>
+                <button type="button" class="btn btn-outline-info" disabled="">Informācija</button>
+                <button type="button" class="btn btn-outline-light" disabled="">Gaiša</button>
+                <button type="button" class="btn btn-outline-dark" disabled="">Tumša</button>
             </div>
 
             <h2>Pogu izmēri</h2>

@@ -24,7 +24,7 @@ include '../includes/header.php'; ?>
 
             <div class="bd-example">
                 <ul class="list-group">
-                    <li class="list-group-item active" aria-current="true">An active item</li>
+                    <li class="list-group-item active" aria-current="true">Aktīva vienība</li>
                     <li class="list-group-item">Otra vienība</li>
                     <li class="list-group-item">Trešā vienība</li>
                     <li class="list-group-item">Ceturtā vienība</li>
@@ -36,7 +36,7 @@ include '../includes/header.php'; ?>
             <div class="bd-example">
 
                 <ul class="list-group">
-                    <li class="list-group-item disabled" aria-disabled="true">A disabled item</li>
+                    <li class="list-group-item disabled" aria-disabled="true">Atspējota vienība</li>
                     <li class="list-group-item">Otra vienība</li>
                     <li class="list-group-item">Trešā vienība</li>
                     <li class="list-group-item">Ceturtā vienība</li>

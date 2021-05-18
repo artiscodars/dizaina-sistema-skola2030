@@ -38,6 +38,10 @@ include '../includes/header.php'; ?>
                 </div>
             </div>
 
+            <p>
+Progresa joslā var attēlot ielādes procentuālo daudzumu ar skaitli, kas ir centrēts attiecībā pret iekrāsoto ielādes daļu un mainās atbilstoši progresa joslas izmaiņām.
+            </p>
+
             <div class="bd-example">
                 <div class="progress">
                     <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25"

@@ -84,7 +84,35 @@ include '../includes/header.php'; ?>
                     </div>
                 </div>
 
+                <br>
+
+                <div class="alert alert-info">Katrtiņām, kurām uz attēla ir paredzēts izvietot tekstu ir jāveido tumšināts apakšējais slānis, vai jāizvēlās tāds attēls uz kura ir izlasāms teksts.</div>
+
             </div>
+
+  <h2>Kartiņa kā saite</h2>
+
+  <p>Var veidot kartiņu kā saiti, ja to prasa attiecīgais lietojums.</p>
+
+              <div class="bd-example">
+
+                <div class="row">
+
+                    <div class="col-md-3">
+
+                        <a class="card" href="#">
+                            <img src="/images/meitenes.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Kartiņas nosaukums</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                                    vestibulum scelerisque massa, quis suscipit felis imperdiet sit amet.</p>
+
+                            </div>
+                        </a>
+                    </div>
+                  </div>
+
+              </div>
 
             <h2>Tipi</h2>
 

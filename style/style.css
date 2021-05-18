@@ -3869,7 +3869,7 @@ fieldset:disabled .btn {
 .collapsing {
   height: 0;
   overflow: hidden;
-  transition: height 0.35s ease;
+  transition: height 0.1s ease;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -4957,7 +4957,7 @@ fieldset:disabled .btn {
   border: 0;
   border-radius: 0;
   overflow-anchor: none;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
+  transition: height 0.1s ease;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -10898,7 +10898,7 @@ body footer img {
   left: 0;
   top: 0;
   bottom: 0;
-  transition: width 1s;
+  transition: width .1s;
   width: 250px;
   overflow: auto;
   -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
@@ -10949,8 +10949,12 @@ body footer img {
 
 .mini-menu .left_menu {
   width: 50px;
-  transition: width 1s;
+  transition: width .1s;
   overflow: visible;
+}
+
+.mini-menu .left_menu .menu > li > span i {
+  line-height: 40px;
 }
 
 .mini-menu .left_menu .logo-holder {
@@ -10959,7 +10963,16 @@ body footer img {
 }
 
 .mini-menu .left_menu txt {
-  display: none;
+  font-size: 8px;
+  position: absolute;
+  bottom: 7px;
+  left: 4px;
+  right: 4px;
+  height: 8px;
+  line-height: 10px;
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .mini-menu .left_menu .logo {
@@ -10993,14 +11006,17 @@ body footer img {
 }
 
 .mini-menu .left_menu .has-children ul {
-  position: absolute;
+  position: fixed;
+  transition: none;
   width: 250px;
-  left: 60px;
+  left: 50px;
   top: 0px;
-  border-radius: 4px;
-  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
-  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
-  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+  bottom: 0;
+  border-radius: 0px;
+  overflow: auto;
+  -webkit-box-shadow: 3px 0px 3px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 3px 0px 3px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 3px 0px 3px 0px rgba(0, 0, 0, 0.15);
 }
 
 .mini-menu .left_menu .has-children ul li > a,
@@ -11073,12 +11089,17 @@ body footer img {
 .menu > li > span {
   display: block;
   color: #804896;
-  background-color: #fff;
+  background-color: #e6e7e8;
   text-decoration: none;
   font-size: 1rem;
   line-height: 50px;
   min-height: 50px;
   text-transform: uppercase;
+}
+
+.menu > li > a.collapsed,
+.menu > li > span.collapsed {
+  background-color: #fff;
 }
 
 .menu > li > a i,
@@ -11096,8 +11117,8 @@ body footer img {
 
 .menu > li > span:hover,
 .menu > li > a:hover {
-  color: #fff;
-  background: #00b5a5;
+  color: #414042;
+  background: #e6e7e8;
   transition: all 0.4s ease 0s;
 }
 
@@ -11105,6 +11126,11 @@ body footer img {
   color: #fff;
   background: #00b5a5;
   transition: all 0.4s ease 0s;
+}
+
+.menu > li span[aria-expanded="true"] {
+  background: #e6e7e8;
+  color: #414042;
 }
 
 .menu > li a.topnav {
@@ -11294,10 +11320,54 @@ ul.koks li > a.csv::before {
   content: "\f397";
 }
 
+.modal-header .btn-close {
+  border-radius: 50%;
+}
+
+.modal-header .btn-close:hover {
+  background: #e6e7e8 url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
+}
+
 mark, .mark {
   background: #804896;
   color: #fff;
   padding: 0;
+}
+
+a.card:hover {
+  text-decoration: none;
+  background: #f6f6f6;
+}
+
+a.card .card-img-overlay {
+  position: relative;
+}
+
+a.card .card-img-overlay::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: #000;
+  opacity: 0.5;
+}
+
+.card .card-img-overlay::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: #000;
+  opacity: 0.3;
+}
+
+.card .card-img-overlay .card-title,
+.card .card-img-overlay .card-text {
+  position: relative;
 }
 
 .table thead th {
@@ -11398,54 +11468,90 @@ mark, .mark {
   background-color: #fff;
   border-radius: 0;
   border-color: #eaeaea;
-  border-left-width: 5px;
+  border-left-width: 0px;
+  position: relative;
+}
+
+.alert::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -1px;
+  bottom: -1px;
+  width: 5px;
+}
+
+.alert a {
+  text-decoration: underline;
 }
 
 .alert-primary {
-  border-left-color: #804896;
   color: #804896;
 }
 
+.alert-primary::before {
+  background: #804896;
+}
+
 .alert-secondary {
-  border-left-color: #414042;
   color: #414042;
 }
 
+.alert-secondary::before {
+  background: #414042;
+}
+
 .alert-success {
-  border-left-color: #22a862;
   color: #22a862;
 }
 
+.alert-success::before {
+  background: #22a862;
+}
+
 .alert-danger {
-  border-left-color: #f26c4d;
   color: #f26c4d;
 }
 
+.alert-danger::before {
+  background: #f26c4d;
+}
+
 .alert-warning {
-  border-left-color: #f99d35;
   color: #f99d35;
 }
 
+.alert-warning::before {
+  background: #f99d35;
+}
+
 .alert-info {
-  border-left-color: #00b5a5;
   color: #00b5a5;
+}
+
+.alert-info::before {
+  background: #00b5a5;
 }
 
 .btn-success,
 .btn-success:disabled,
 .btn-success:hover,
+.btn-success:focus,
 .btn-outline-success:hover,
 .btn-danger,
 .btn-danger:disabled,
 .btn-danger:hover,
+.btn-danger:focus,
 .btn-outline-danger:hover,
 .btn-warning,
 .btn-warning:disabled,
 .btn-warning:hover,
+.btn-warning:focus,
 .btn-outline-warning:hover,
 .btn-info,
 .btn-info:disabled,
 .btn-info:hover,
+.btn-info:focus,
 .btn-outline-info:hover {
   color: #fff;
 }
@@ -11496,8 +11602,21 @@ mark, .mark {
   background: #804896;
 }
 
+.nav-tabs .nav-link:hover {
+  border-color: #e6e7e8;
+  background: #e6e7e8;
+}
+
 .tab-pane {
   padding: 15px;
+}
+
+.image-wrap {
+  padding-bottom: 30px;
+}
+
+.image-wrap .caption {
+  font-style: italic;
 }
 
 .drop_in_area {
@@ -11626,6 +11745,10 @@ header .top_nav .dots {
 
 .mini-menu header {
   left: 50px;
+}
+
+body {
+  font-family: "Lato regular";
 }
 
 .izkartojums {

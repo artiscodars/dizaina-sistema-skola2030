@@ -25,9 +25,9 @@ include '../includes/header.php'; ?>
             <div class="row  mb-5">
 
                 <div class="col-md-8">
-                  <p>Par ikono izmntošanu Skola2030 interneta bāzētajos produktos lasīt <a href="/visparigi/ikonas.php" target="_blank">šeit</a>.</p>
+                  <div class="alert alert-info">Par ikonu izmantošanu Skola2030 interneta bāzētajos produktos lasīt <a href="/visparigi/ikonas.php" target="_blank">šeit</a>.</div>
 
-                
+
 
                 </div>
 

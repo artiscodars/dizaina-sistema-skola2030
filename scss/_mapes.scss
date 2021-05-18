@@ -14,6 +14,11 @@
                 background: $tonis;
             }
         }
+
+        &:hover {
+          border-color: $gaisi-peleks;
+          background: $gaisi-peleks
+        }
     }
 }
 .tab-pane {

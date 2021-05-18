@@ -27,7 +27,7 @@
     left: 0;
     top: 0;
     bottom: 0;
-    transition: width 1s;
+    transition: width .1s;
     width: 250px;
     overflow: auto;
     -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
@@ -79,8 +79,17 @@
 .mini-menu {
     .left_menu {
         width: 50px;
-        transition: width 1s;
+        transition: width .1s;
         overflow: visible;
+
+
+        .menu {
+          >li{
+            >span i {
+              line-height: 40px;
+            }
+          }
+        }
 
         .logo-holder {
             height: 55px;
@@ -88,7 +97,16 @@
         }
 
         txt {
-            display: none;
+          font-size: 8px;
+  position: absolute;
+  bottom: 7px;
+  left: 4px;
+  right: 4px;
+  height: 8px;
+  line-height: 10px;
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden; 
         }
 
         .logo {
@@ -120,14 +138,17 @@
                 }
             }
             ul {
-                position: absolute;
+                position: fixed;
+                transition:none;
                 width: 250px;
-                left: 60px;
+                left: 50px;
                 top: 0px;
-                border-radius: 4px;
-                -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
-                -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
-                box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+                bottom: 0;
+                border-radius: 0px;
+                overflow: auto;
+                -webkit-box-shadow:3px 0px 3px 0px rgba(0, 0, 0, 0.15);
+                -moz-box-shadow: 3px 0px 3px 0px rgba(0, 0, 0, 0.15);
+                box-shadow: 3px 0px 3px 0px rgba(0, 0, 0, 0.15);
                 li {
                     > a,
                     > span {
@@ -207,12 +228,16 @@
         > span {
             display: block;
             color: $tonis;
-            background-color: #fff;
+            background-color: $gaisi-peleks;
             text-decoration: none;
             font-size: 1rem;
             line-height: 50px;
             min-height: 50px;
             text-transform: uppercase;
+
+            &.collapsed {
+              background-color: #fff;
+            }
             i {
                 display: inline-block;
                 width: 50px;
@@ -226,8 +251,8 @@
 
         > span:hover,
         > a:hover {
-            color: #fff;
-            background: $tirkizs;
+            color: $tumsi-peleks;
+            background: $gaisi-peleks;
             transition: all 0.4s ease 0s;
         }
 
@@ -235,6 +260,14 @@
             color: #fff;
             background: $tirkizs;
             transition: all 0.4s ease 0s;
+
+
+
+        }
+
+        span[aria-expanded="true"] {
+            background: $gaisi-peleks;
+            color:$tumsi-peleks;
         }
 
         a.topnav {
