@@ -67,7 +67,7 @@ if($_COOKIE['minimenu']=='on') {
 
     </div>
 
-    <div class="active-menu-bg"></div>
+    <div class="active-menu-bg"><i class="ri-close-line"></i></div>
     <header>
 
         <div class="menu_opener"><i class="bi bi-list"></i></div>

@@ -8,6 +8,7 @@
     left: 10px;
     top: 10px;
     z-index: 11;
+    cursor: pointer;
 
     i {
         font-size: 30px;
@@ -27,9 +28,10 @@
     left: 0;
     top: 0;
     bottom: 0;
-    transition: width .1s;
+    transition: width 1s;
     width: 250px;
     overflow: auto;
+    overflow-x: hidden;
     -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
     -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
@@ -48,6 +50,8 @@
         height: 155px;
         background: #fff;
 
+
+
         .logo {
             display: block;
             text-align: center;
@@ -60,6 +64,16 @@
             color: $tonis;
             text-align: center;
             font-size: 1rem;
+
+            overflow: hidden;
+            white-space: nowrap;
+
+            txt {
+              text-overflow: ellipsis;
+              overflow: hidden;
+              white-space: nowrap;
+            }
+
             i {
                 margin-right: 8px;
             }
@@ -79,8 +93,8 @@
 .mini-menu {
     .left_menu {
         width: 50px;
-        transition: width .1s;
-        overflow: visible;
+        transition: width 1s;
+        overflow: hidden;
 
 
         .menu {
@@ -93,20 +107,25 @@
 
         .logo-holder {
             height: 55px;
-            border-bottom: 1px solid #eaeaea;
+
+            background: $tonis;
+
         }
 
         txt {
           font-size: 8px;
-  position: absolute;
-  bottom: 7px;
-  left: 4px;
-  right: 4px;
-  height: 8px;
-  line-height: 10px;
-  text-align: center;
-  text-overflow: ellipsis;
-  overflow: hidden; 
+          position: absolute;
+          bottom: 7px;
+          left: 4px;
+          right: 4px;
+          height: 8px;
+          line-height: 10px;
+          text-align: center;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          width:42px;
+
+
         }
 
         .logo {
@@ -118,7 +137,14 @@
             height: 55px;
             line-height: 55px;
             text-align: center;
-            background: $tonis;
+          overflow: hidden;
+            width:50px;
+
+txt {
+  display: none;
+}
+
+
             i {
                 margin-right: 0px;
                 color: #fff;
@@ -158,6 +184,42 @@
             }
         }
     }
+}
+
+.transformer {
+
+transition: padding-left 1s;
+
+header {
+  transition: left 1s;
+}
+
+  .left_menu {
+
+    overflow: hidden;
+
+    .logo-holder {
+        //height: 55px;
+        //border-bottom: 1px solid #eaeaea;
+        //background: $tonis;
+        transition-property: height width;
+        transition-timing-function: ease-in-out;
+        transition-duration: 1s;
+    }
+
+    .system-title {
+      transition-property: height width;
+      transition-timing-function: ease-in-out;
+      transition-duration: 1s;
+
+     }
+
+    txt {
+      transition-property: position  left right height line-height text-align width;
+         transition-timing-function: ease-in-out;
+         transition-duration: 1s;
+    }
+  }
 }
 
 @media (max-width: 1025px) {
@@ -234,6 +296,8 @@
             line-height: 50px;
             min-height: 50px;
             text-transform: uppercase;
+              white-space: nowrap;
+
 
             &.collapsed {
               background-color: #fff;
@@ -288,6 +352,7 @@ li.has-children {
         list-style: none;
         padding: 0;
         margin: 0;
+      //  width:250px
     }
 
     cursor: pointer;
@@ -339,3 +404,52 @@ li.has-children {
         }
     }
 }
+
+.active-menu-bg {
+  display: none;
+}
+
+@media (max-width: 1025px) {
+
+.mini-menu-button {
+  display: none;
+}
+
+
+.mobmenu {
+
+  overflow: hidden;
+
+.active-menu-bg {
+
+  display: block;
+  position: fixed;
+    z-index: 12;
+  background: #000;
+  opacity: 0.5;
+  left:0;
+  right:0;
+  top:0;
+  bottom: 0;
+  transition: transform 0.2s ease-in-out;
+
+/*  i {
+    color: #fff;
+    position: absolute;
+    top:10px;
+    right: 15px;
+    font-size: 30px;
+    opacity: 1;
+  }*/
+}
+
+
+
+  .left_menu {
+
+    left: 0;
+    transition: all 0.4s ease 0s;
+}
+}
+
+ }

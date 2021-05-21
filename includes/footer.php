@@ -6,6 +6,7 @@
 
 </footer>
 
+<?php /*
 <script>
     window.Userback = window.Userback || {};
     Userback.access_token = '29923|43872|KVo83IFOrdFQFn5OYh639i3xA';
@@ -15,6 +16,8 @@
         (d.head || d.body).appendChild(s);
     })(document);
 </script>
+
+*/?>
 
 </body>
 
@@ -26,6 +29,9 @@
 <script src="/fancybox/dist/jquery.fancybox.min.js"></script>
 
 <script>
+
+
+
 var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
 var tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl) {
     return new bootstrap.Tooltip(tooltipTriggerEl)
@@ -82,6 +88,15 @@ function checkCookie() {
     }*/
 }
 
+$(function(){
+$('.mini-menu-button').click(function(){
+$('body').toggleClass('transformer');
+setTimeout(function() {
+$('body').removeClass('transformer');
+}, 1000);
+});
+});
+
 /*
 $(document).click(function(e) {
 	if (!$(e.target).is('.mini-menu')) {
@@ -96,6 +111,18 @@ $(".mini-menu").click(function() {
 $(".show").prev().attr('aria-expanded', 'false').toggleClass("collapsed");
 $(".show").toggleClass("show");
 });
+
+
+
+$(".menu_opener").click(function() {
+  $("body").toggleClass("mobmenu");
+
+  });
+
+  $(".active-menu-bg").click(function()  {
+    $("body").toggleClass("mobmenu");
+
+    });
 
 
 

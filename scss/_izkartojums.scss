@@ -5,9 +5,13 @@ body {
     // font-size: $body_font_size;
     padding-top: 75px;
     background: #fff;
+    height: 100%;
+
+  
 
     &.mini-menu {
         padding-left: 50px;
+
     }
 
     &.konts-active,
