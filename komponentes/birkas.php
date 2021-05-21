@@ -72,7 +72,56 @@ include '../includes/header.php'; ?>
 
             </div>
 
-            
+
+
+
+                        <h2>Atceļamā pazīme / birka</h2>
+                      
+
+                        <div class="bd-example">
+
+                            <div class="btn-group">
+                                <div class="badge cancel bg-primary m-1" >
+                                    Ģeogrāfija <span><i class="ri-close-circle-fill"></i></span>
+                                </div>
+
+                                <div class="badge cancel bg-secondary m-1" >
+                                    Ģeogrāfija <span><i class="ri-close-circle-fill"></i></span>
+                                </div>
+
+                                <div class="badge cancel bg-success m-1" >
+                                    Ģeogrāfija <span><i class="ri-close-circle-fill"></i></span>
+                                </div>
+
+                                <div class="badge cancel bg-danger m-1" >
+                                    Ģeogrāfija <span><i class="ri-close-circle-fill"></i></span>
+                                </div>
+
+                                <div class="badge cancel bg-warning m-1" >
+                                    Ģeogrāfija <span><i class="ri-close-circle-fill"></i></span>
+                                </div>
+
+                                <div class="badge cancel bg-info m-1" >
+                                    Ģeogrāfija <span><i class="ri-close-circle-fill"></i></span>
+                                </div>
+
+                                <div class="badge cancel bg-light text-dark m-1" >
+                                    Ģeogrāfija <span><i class="ri-close-circle-fill"></i></span>
+                                </div>
+                                <div class="badge cancel bg-dark m-1" >
+                                    Ģeogrāfija <span><i class="ri-close-circle-fill"></i></span>
+                                </div>
+
+                            </div>
+
+                          </div>
+
+
+
+
+
+
+
 
         </div>
     </div>
