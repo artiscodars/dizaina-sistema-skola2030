@@ -11672,6 +11672,37 @@ a.card .card-img-overlay::before {
   color: #414042;
 }
 
+.btn-cancel {
+  padding: 4px 40px 5px 15px;
+  position: relative;
+  border-radius: 50px;
+  color: #fff;
+}
+
+.btn-cancel span {
+  display: block;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  right: 0;
+  padding: 5px 10px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.btn-cancel span:hover i {
+  opacity: 0.8;
+}
+
+.btn-cancel.btn-cancel-sm {
+  padding: 2px 30px 3px 10px;
+  font-size: 0.9rem;
+}
+
+.btn-cancel.btn-cancel-sm span {
+  padding: 3px 7px;
+}
+
 .list-group .list-group-item {
   border-radius: 2px;
 }
@@ -11765,33 +11796,6 @@ a.card .card-img-overlay::before {
   border-radius: 50%;
   margin-left: -3px;
   margin-right: 5px;
-}
-
-.badge.cancel {
-  line-height: normal;
-  padding: 0 40px 0 15px;
-  position: relative;
-  line-height: 35px;
-  height: 35px;
-}
-
-.badge.cancel span {
-  display: block;
-  position: absolute;
-  cursor: pointer;
-  font-size: 1.2rem;
-  top: 0;
-  right: 0;
-  width: 35px;
-  height: 35px;
-  line-height: 35px;
-  text-align: center;
-  border-radius: 50%;
-  background: inherit;
-}
-
-.badge.cancel span:hover i {
-  opacity: 0.8;
 }
 
 .btn .badge {

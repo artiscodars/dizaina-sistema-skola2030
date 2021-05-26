@@ -85,21 +85,21 @@ include '../includes/header.php'; ?>
             <div class="bd-example">
 
                 <div class="btn-group btn-group-lg" role="group" aria-label="...">
-                    <button type="button" class="btn btn-primary">Left</button>
-                    <button type="button" class="btn btn-primary">Middle</button>
-                    <button type="button" class="btn btn-primary">Right</button>
+                    <button type="button" class="btn btn-primary">Pa kreisi</button>
+                    <button type="button" class="btn btn-primary">Pa vidu</button>
+                    <button type="button" class="btn btn-primary">Pa labi</button>
                 </div>
                 <br> <br>
                 <div class="btn-group" role="group" aria-label="Basic outlined example">
-                    <button type="button" class="btn btn-primary">Left</button>
-                    <button type="button" class="btn btn-primary">Middle</button>
-                    <button type="button" class="btn btn-primary">Right</button>
+                    <button type="button" class="btn btn-primary">Pa kreisi</button>
+                    <button type="button" class="btn btn-primary">Pa vidu</button>
+                    <button type="button" class="btn btn-primary">Pa labi</button>
                 </div>
                 <br> <br>
                 <div class="btn-group btn-group-sm" role="group" aria-label="...">
-                    <button type="button" class="btn btn-primary">Left</button>
-                    <button type="button" class="btn btn-primary">Middle</button>
-                    <button type="button" class="btn btn-primary">Right</button>
+                    <button type="button" class="btn btn-primary">Pa kreisi</button>
+                    <button type="button" class="btn btn-primary">Pa vidu</button>
+                    <button type="button" class="btn btn-primary">Pa labi</button>
                 </div>
 
             </div>
@@ -109,21 +109,21 @@ include '../includes/header.php'; ?>
             <div class="bd-example">
 
                 <div class="btn-group-vertical btn-group-lg" role="group" aria-label="...">
-                    <button type="button" class="btn btn-primary">Left</button>
-                    <button type="button" class="btn btn-primary">Middle</button>
-                    <button type="button" class="btn btn-primary">Right</button>
+                    <button type="button" class="btn btn-primary">Pa kreisi</button>
+                    <button type="button" class="btn btn-primary">Pa vidu</button>
+                    <button type="button" class="btn btn-primary">Pa labi</button>
                 </div>
                 <br> <br>
                 <div class="btn-group-vertical" role="group" aria-label="Basic outlined example">
-                    <button type="button" class="btn btn-primary">Left</button>
-                    <button type="button" class="btn btn-primary">Middle</button>
-                    <button type="button" class="btn btn-primary">Right</button>
+                    <button type="button" class="btn btn-primary">Pa kreisi</button>
+                    <button type="button" class="btn btn-primary">Pa vidu</button>
+                    <button type="button" class="btn btn-primary">Pa labi</button>
                 </div>
                 <br> <br>
                 <div class="btn-group-vertical btn-group-sm" role="group" aria-label="...">
-                    <button type="button" class="btn btn-primary">Left</button>
-                    <button type="button" class="btn btn-primary">Middle</button>
-                    <button type="button" class="btn btn-primary">Right</button>
+                    <button type="button" class="btn btn-primary">Pa kreisi</button>
+                    <button type="button" class="btn btn-primary">Pa vidu</button>
+                    <button type="button" class="btn btn-primary">Pa labi</button>
                 </div>
 
             </div>
@@ -132,21 +132,21 @@ include '../includes/header.php'; ?>
             <div class="bd-example">
 
                 <div class="btn-group btn-group-lg" role="group" aria-label="...">
-                    <button type="button" class="btn btn-outline-primary">Left</button>
-                    <button type="button" class="btn btn-outline-primary">Middle</button>
-                    <button type="button" class="btn btn-outline-primary">Right</button>
+                    <button type="button" class="btn btn-outline-primary">Pa kreisi</button>
+                    <button type="button" class="btn btn-outline-primary">Pa vidu</button>
+                    <button type="button" class="btn btn-outline-primary">Pa labi</button>
                 </div>
                 <br> <br>
                 <div class="btn-group" role="group" aria-label="Basic outlined example">
-                    <button type="button" class="btn btn-outline-primary">Left</button>
-                    <button type="button" class="btn btn-outline-primary">Middle</button>
-                    <button type="button" class="btn btn-outline-primary">Right</button>
+                    <button type="button" class="btn btn-outline-primary">Pa kreisi</button>
+                    <button type="button" class="btn btn-outline-primary">Pa vidu</button>
+                    <button type="button" class="btn btn-outline-primary">Pa labi</button>
                 </div>
                 <br> <br>
                 <div class="btn-group btn-group-sm" role="group" aria-label="...">
-                    <button type="button" class="btn btn-outline-primary">Left</button>
-                    <button type="button" class="btn btn-outline-primary">Middle</button>
-                    <button type="button" class="btn btn-outline-primary">Right</button>
+                    <button type="button" class="btn btn-outline-primary">Pa kreisi</button>
+                    <button type="button" class="btn btn-outline-primary">Pa vidu</button>
+                    <button type="button" class="btn btn-outline-primary">Pa labi</button>
                 </div>
 
             </div>
@@ -155,21 +155,21 @@ include '../includes/header.php'; ?>
             <div class="bd-example">
 
                 <div class="btn-group-vertical btn-group-lg" role="group" aria-label="...">
-                    <button type="button" class="btn btn-outline-primary">Left</button>
-                    <button type="button" class="btn btn-outline-primary">Middle</button>
-                    <button type="button" class="btn btn-outline-primary">Right</button>
+                    <button type="button" class="btn btn-outline-primary">Pa kreisi</button>
+                    <button type="button" class="btn btn-outline-primary">Pa vidu</button>
+                    <button type="button" class="btn btn-outline-primary">Pa labi</button>
                 </div>
                 <br> <br>
                 <div class="btn-group-vertical" role="group" aria-label="Basic outlined example">
-                    <button type="button" class="btn btn-outline-primary">Left</button>
-                    <button type="button" class="btn btn-outline-primary">Middle</button>
-                    <button type="button" class="btn btn-outline-primary">Right</button>
+                    <button type="button" class="btn btn-outline-primary">Pa kreisi</button>
+                    <button type="button" class="btn btn-outline-primary">Pa vidu</button>
+                    <button type="button" class="btn btn-outline-primary">Pa labi</button>
                 </div>
                 <br> <br>
                 <div class="btn-group-vertical btn-group-sm" role="group" aria-label="...">
-                    <button type="button" class="btn btn-outline-primary">Left</button>
-                    <button type="button" class="btn btn-outline-primary">Middle</button>
-                    <button type="button" class="btn btn-outline-primary">Right</button>
+                    <button type="button" class="btn btn-outline-primary">Pa kreisi</button>
+                    <button type="button" class="btn btn-outline-primary">Pa vidu</button>
+                    <button type="button" class="btn btn-outline-primary">Pa labi</button>
                 </div>
 
             </div>
@@ -180,12 +180,12 @@ include '../includes/header.php'; ?>
                 <div class="dropdown">
                     <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1"
                         data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown button
+                        Izvēlne
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" href="#">Darbība</a></li>
+                        <li><a class="dropdown-item" href="#">Cita darbība</a></li>
+                        <li><a class="dropdown-item" href="#">Pavisam cita darbība</a></li>
                     </ul>
                 </div>
             </div>
@@ -194,20 +194,20 @@ include '../includes/header.php'; ?>
 
             <div class="bd-example">
                 <div class="btn-group">
-                    <button type="button" class="btn btn-primary">Reference</button>
+                    <button type="button" class="btn btn-primary">Darbība</button>
                     <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split"
                         id="dropdownMenuReference" data-bs-toggle="dropdown" aria-expanded="false"
                         data-bs-reference="parent">
-                        <span class="visually-hidden">Toggle Dropdown</span>
+                        <span class="visually-hidden">Izvēlne</span>
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuReference">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" href="#">Darbība</a></li>
+                        <li><a class="dropdown-item" href="#">Cita darbība</a></li>
+                        <li><a class="dropdown-item" href="#">Pavisam cita darbība</a></li>
                         <li>
                             <hr class="dropdown-divider">
                         </li>
-                        <li><a class="dropdown-item" href="#">Separated link</a></li>
+                        <li><a class="dropdown-item" href="#">Siate</a></li>
                     </ul>
                 </div>
 
@@ -220,88 +220,147 @@ include '../includes/header.php'; ?>
                 <div class="btn-group">
                     <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton"
                         data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown
+                        Izvēlne
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <li><a class="dropdown-item" href="#">Menu item</a></li>
-                        <li><a class="dropdown-item" href="#">Menu item</a></li>
-                        <li><a class="dropdown-item" href="#">Menu item</a></li>
+                        <li><a class="dropdown-item" href="#">Poga ar nosaukumu</a></li>
+                        <li><a class="dropdown-item" href="#">Poga ar nosaukumu</a></li>
+                        <li><a class="dropdown-item" href="#">Poga ar nosaukumu</a></li>
                     </ul>
                 </div>
 
                 <div class="btn-group">
                     <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown"
                         aria-expanded="false">
-                        Right-aligned menu
+                        Pa labi
                     </button>
                     <ul class="dropdown-menu dropdown-menu-end">
-                        <li><a class="dropdown-item" href="#">Menu item</a></li>
-                        <li><a class="dropdown-item" href="#">Menu item</a></li>
-                        <li><a class="dropdown-item" href="#">Menu item</a></li>
+                        <li><a class="dropdown-item" href="#">Poga ar nosaukumu</a></li>
+                        <li><a class="dropdown-item" href="#">Poga ar nosaukumu</a></li>
+                        <li><a class="dropdown-item" href="#">Poga ar nosaukumu</a></li>
                     </ul>
                 </div>
 
-                <div class="btn-group">
-                    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown"
-                        data-bs-display="static" aria-expanded="false">
-                        Left-aligned, right-aligned lg
-                    </button>
-                    <ul class="dropdown-menu dropdown-menu-lg-end">
-                        <li><a class="dropdown-item" href="#">Menu item</a></li>
-                        <li><a class="dropdown-item" href="#">Menu item</a></li>
-                        <li><a class="dropdown-item" href="#">Menu item</a></li>
-                    </ul>
-                </div>
+              
 
-                <div class="btn-group">
-                    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown"
-                        data-bs-display="static" aria-expanded="false">
-                        Right-aligned, left-aligned lg
-                    </button>
-                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
-                        <li><a class="dropdown-item" href="#">Menu item</a></li>
-                        <li><a class="dropdown-item" href="#">Menu item</a></li>
-                        <li><a class="dropdown-item" href="#">Menu item</a></li>
-                    </ul>
-                </div>
+
 
                 <div class="btn-group dropstart">
                     <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown"
                         aria-expanded="false">
-                        Dropstart
+                        Pirms pogas
                     </button>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Menu item</a></li>
-                        <li><a class="dropdown-item" href="#">Menu item</a></li>
-                        <li><a class="dropdown-item" href="#">Menu item</a></li>
+                        <li><a class="dropdown-item" href="#">Poga ar nosaukumu</a></li>
+                        <li><a class="dropdown-item" href="#">Poga ar nosaukumu</a></li>
+                        <li><a class="dropdown-item" href="#">Poga ar nosaukumu</a></li>
                     </ul>
                 </div>
 
                 <div class="btn-group dropend">
                     <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown"
                         aria-expanded="false">
-                        Dropend
+                        Pēc pogas
                     </button>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Menu item</a></li>
-                        <li><a class="dropdown-item" href="#">Menu item</a></li>
-                        <li><a class="dropdown-item" href="#">Menu item</a></li>
+                        <li><a class="dropdown-item" href="#">Poga ar nosaukumu</a></li>
+                        <li><a class="dropdown-item" href="#">Poga ar nosaukumu</a></li>
+                        <li><a class="dropdown-item" href="#">Poga ar nosaukumu</a></li>
                     </ul>
                 </div>
 
                 <div class="btn-group dropup">
                     <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown"
                         aria-expanded="false">
-                        Dropup
+                        Virs pogas
                     </button>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Menu item</a></li>
-                        <li><a class="dropdown-item" href="#">Menu item</a></li>
-                        <li><a class="dropdown-item" href="#">Menu item</a></li>
+                        <li><a class="dropdown-item" href="#">Poga ar nosaukumu</a></li>
+                        <li><a class="dropdown-item" href="#">Poga ar nosaukumu</a></li>
+                        <li><a class="dropdown-item" href="#">Poga ar nosaukumu</a></li>
                     </ul>
                 </div>
 
             </div>
+
+            <h2>Atcelšanas poga</h2>
+
+
+            <div class="bd-example">
+
+                <div class="btn-group">
+                    <div class="btn-cancel  bg-primary m-1" >
+                        Ģeogrāfija <span><i class="ri-close-circle-fill"></i></span>
+                    </div>
+
+                    <div class="btn-cancel cancel bg-secondary m-1" >
+                        Ģeogrāfija <span><i class="ri-close-circle-fill"></i></span>
+                    </div>
+
+                    <div class="btn-cancel cancel bg-success m-1" >
+                        Ģeogrāfija <span><i class="ri-close-circle-fill"></i></span>
+                    </div>
+
+                    <div class="btn-cancel cancel bg-danger m-1" >
+                        Ģeogrāfija <span><i class="ri-close-circle-fill"></i></span>
+                    </div>
+
+                    <div class="btn-cancel cancel bg-warning m-1" >
+                        Ģeogrāfija <span><i class="ri-close-circle-fill"></i></span>
+                    </div>
+
+                    <div class="btn-cancel cancel bg-info m-1" >
+                        Ģeogrāfija <span><i class="ri-close-circle-fill"></i></span>
+                    </div>
+
+                    <div class="btn-cancel cancel bg-light text-dark m-1" >
+                        Ģeogrāfija <span><i class="ri-close-circle-fill"></i></span>
+                    </div>
+                    <div class="btn-cancel cancel bg-dark m-1" >
+                        Ģeogrāfija <span><i class="ri-close-circle-fill"></i></span>
+                    </div>
+
+                </div>
+
+              </div>
+
+              <div class="bd-example">
+
+                  <div class="btn-group">
+                      <div class="btn-cancel btn-cancel-sm bg-primary m-1" >
+                          Ģeogrāfija <span><i class="ri-close-circle-fill"></i></span>
+                      </div>
+
+                      <div class="btn-cancel  btn-cancel-sm bg-secondary m-1" >
+                          Ģeogrāfija <span><i class="ri-close-circle-fill"></i></span>
+                      </div>
+
+                      <div class="btn-cancel  btn-cancel-sm bg-success m-1" >
+                          Ģeogrāfija <span><i class="ri-close-circle-fill"></i></span>
+                      </div>
+
+                      <div class="btn-cancel  btn-cancel-sm bg-danger m-1" >
+                          Ģeogrāfija <span><i class="ri-close-circle-fill"></i></span>
+                      </div>
+
+                      <div class="btn-cancel  btn-cancel-sm bg-warning m-1" >
+                          Ģeogrāfija <span><i class="ri-close-circle-fill"></i></span>
+                      </div>
+
+                      <div class="btn-cancel  btn-cancel-sm bg-info m-1" >
+                          Ģeogrāfija <span><i class="ri-close-circle-fill"></i></span>
+                      </div>
+
+                      <div class="btn-cancel  btn-cancel-sm bg-light text-dark m-1" >
+                          Ģeogrāfija <span><i class="ri-close-circle-fill"></i></span>
+                      </div>
+                      <div class="btn-cancel  btn-cancel-sm bg-dark m-1" >
+                          Ģeogrāfija <span><i class="ri-close-circle-fill"></i></span>
+                      </div>
+
+                  </div>
+
+                </div>
 
 
 
