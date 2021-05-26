@@ -70,7 +70,7 @@ include 'includes/header.php'; ?>
 
 <p>Dizaina sistēma ir pieejama lejupielādei <a href="https://github.com/igstudija/dizaina-sistema-skola2030">GutHub</a>.</p>
 
-<p><a href="elementi_v2.xd"><i class="ri-file-2-fill"></i> Dizaina sistēmas elementi (Adobe XD)</a></p>
+<p><a href="elementi_v3.xd"><i class="ri-file-2-fill"></i> Dizaina sistēmas elementi (Adobe XD)</a></p>
 
 <p><a href="piemeri_v2.xd"><i class="ri-file-2-fill"></i> Dizaina sistēmas piemēri (Adobe XD)</a></p>
 
