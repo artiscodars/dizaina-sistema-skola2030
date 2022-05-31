@@ -22,7 +22,7 @@ include '../includes/header.php'; ?>
                 <div class="col">
                     <div class="card">
                         <div class="card-body text-center tonis-bg">
-                            $tonis, #804896
+                            $tonis, #76559C
                         </div>
                     </div>
 
