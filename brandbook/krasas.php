@@ -18,7 +18,7 @@ Interneta projektu krāsas un to kodi ir aplūkojami <a href="/visparigi/krasas.
             </p>
 
             <h2 class="ds">
-                Primārās krāsas
+                Primārās krāsas 
             </h2>
 
             <div class="row justify-content-center no-gutters">
@@ -26,7 +26,7 @@ Interneta projektu krāsas un to kodi ir aplūkojami <a href="/visparigi/krasas.
                 <div class="col">
                     <div class="card">
                         <div class="card-body text-center tonis-bg">
-                          CMYK: 60/80/0/0, RGB: 128/71/150
+                          CMYK: 59/80/0/0, RGB: 118/85/156
                         </div>
                     </div>
 

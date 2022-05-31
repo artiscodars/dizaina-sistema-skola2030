@@ -13,11 +13,11 @@
 
     //echo $_SERVER["DOCUMENT_ROOT"];
 
-    $styletime = date("YmdHi", filemtime($_SERVER["DOCUMENT_ROOT"] . "/style/style.min.css")); ?>
+    $styletime = date("YmdHi", filemtime($_SERVER["DOCUMENT_ROOT"] . "/style/style.css")); ?>
 
     <link rel="stylesheet" type="text/css" href="/fancybox/dist/jquery.fancybox.min.css">
 
-    <link href="/style/style.min.css?v=<?php echo $styletime; ?>" rel="stylesheet">
+    <link href="/style/style.css?v=<?php echo $styletime; ?>" rel="stylesheet">
 
 </head>
 
